@@ -12,12 +12,6 @@ Model created by **[Maker Game Studios](https://sketchfab.com/MakerGamesStudios)
 
 ### How to use
 
-            <li><strong>W,A,S,D or ← → ↑ ↓:</strong> Control the vehicle</li>
-            <li><strong>Space: </strong>Brake the vehicle</li>
-            <li><strong>C:</strong> Change camera</li>
-            <li><strong>Enter, Tab: </strong>Reset the demo</li>
-
-
  * **W,A,S,D or ← → ↑ ↓:** Control the vehicle.
  * **Space**: Brake.
  * **C**: Change camera.
