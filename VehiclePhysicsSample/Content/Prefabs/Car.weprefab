@@ -1,0 +1,532 @@
+!Evergine.Framework.Assets.AssetSources.Entities.PrefabModel,Evergine.Framework
+Root:
+  Name: Jeep4x4_glb
+  Tag: null
+  IsEnabled: true
+  IsStatic: false
+  Components:
+    - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+      Id: 6525e557-7692-4d12-ac66-b3e1b03f6474
+      IsEnabled: true
+      LocalOrientation:
+        W: 1.0
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      LocalPosition:
+        X: 0.458926976
+        Y: 2.11647201
+        Z: -0.487925053
+      LocalScale:
+        X: 1.0
+        Y: 1.0
+        Z: 1.0
+    - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+      Id: 0fd0e3a3-c344-45e8-91f7-d31d9d7bfcff
+      AsignedTo: Real_Car_22_Body
+      IsEnabled: true
+      Material: 291e1ecc-5206-442f-9ef4-7fe81ec60220
+      UseCopy: false
+    - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+      Id: dde83b07-e05c-4ee2-83c3-22a3442e4496
+      AsignedTo: Real_Car_22_paint
+      IsEnabled: true
+      Material: 82e6ebca-14d7-4154-85d6-dcfc11ab8b7c
+      UseCopy: false
+    - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+      Id: 8240e75c-b255-4923-ba23-95bf69d7fb58
+      AsignedTo: Real_Car_22_mirror
+      IsEnabled: true
+      Material: 5221d50a-cfc9-49fb-bf6f-a2132defc550
+      UseCopy: false
+    - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+      Id: 3a595f68-9212-4c37-9b74-95a3c590a5fc
+      AsignedTo: Real_Car_22_Glass
+      IsEnabled: true
+      Material: d6eeaaf8-9df7-4abf-b384-8dafc7eeab4c
+      UseCopy: false
+    - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
+      Id: 10a48dff-e61a-4b9d-9de3-5579cdcda81c
+      IsEnabled: true
+      Model: 1ef1be97-f553-4411-88db-2524aee400e4
+      ModelMeshName: Plane
+    - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+      Id: 0f47a6f6-d7f9-4081-a126-8fb584b16e18
+      DebugBoundingbox: true
+      IsCullingEnabled: true
+      IsEnabled: true
+      OrderBias: 0
+      RenderFlags: CastShadows
+    - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      Id: 566875b0-90fc-42aa-88bd-d79ef7209f47
+      AngularDamping: 0.0
+      AngularFactor:
+        X: 1.0
+        Y: 1.0
+        Z: 1.0
+      AngularVelocity:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      CcdMotionThreshold: 0.0
+      CcdSweptSphereRadius: 0.200000003
+      CollisionCategories: Cat1
+      Friction: 0.5
+      Gravity:
+        X: 0.0
+        Y: -9.80000019
+        Z: 0.0
+      IsEnabled: true
+      IsSensor: false
+      LinearDamping: 0.0
+      LinearFactor:
+        X: 1.0
+        Y: 1.0
+        Z: 1.0
+      LinearVelocity:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      MaskBits: All
+      Mass: 800.0
+      OverrideGravity: false
+      PhysicBodyType: Dynamic
+      Restitution: 0.0
+      RollingFriction: 0.0
+      UpdateOrder: 0.5
+    - !Evergine.Framework.Physics3D.MeshCollider3D,Evergine.Framework
+      Id: 4792d6c2-6165-423d-a43e-2410dae3ae9b
+      AsyncShapeCreation: false
+      IsConvex: true
+      IsEnabled: true
+      Margin: 0.0399999991
+      Offset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      OrientationOffset:
+        W: 1.0
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 1.0
+        Y: 1.0
+        Z: 1.0
+    - !Evergine.Framework.Physics3D.PhysicVehicle3D,Evergine.Framework
+      Id: 47b95e8a-3c20-4aa6-bd0b-be2d2bc66c0f
+      FrictionSlip: 1000.0
+      IsEnabled: true
+      MaxSuspensionForce: 6000.0
+      MaxSuspensionTravel: 5.0
+      SuspensionCompression: 4.4000001
+      SuspensionDamping: 2.29999995
+      SuspensionStiffness: 20.0
+    - !TestPhysicVehicle.CarController,PhysicVehicleSample
+      Id: 8cf3b1f5-9afe-4d1f-90dc-6337897d0065
+      Brake: 20.0
+      IsEnabled: true
+      MaxForce: 1000.0
+      UpdateOrder: 0.5
+  Children:
+    - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+      Name: FL_Wheel
+      Tag: null
+      IsEnabled: true
+      IsStatic: false
+      Components:
+        - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+          Id: e349ada4-fef3-49fb-bf0e-7abb12cc3de4
+          IsEnabled: true
+          LocalOrientation:
+            W: 1.0
+            X: 0.0
+            Y: 0.0
+            Z: 0.0
+          LocalPosition:
+            X: 0.902164578
+            Y: -0.592906892
+            Z: 1.36327159
+          LocalScale:
+            X: 1.0
+            Y: 1.0
+            Z: 1.0
+        - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+          Id: 7d4ad62c-637f-4afc-8e88-9747ddc21919
+          AsignedTo: Real_Car_22_Body
+          IsEnabled: true
+          Material: 291e1ecc-5206-442f-9ef4-7fe81ec60220
+          UseCopy: false
+        - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
+          Id: 2b886b75-4fdb-4501-aa6f-10374f5af111
+          IsEnabled: true
+          Model: 1ef1be97-f553-4411-88db-2524aee400e4
+          ModelMeshName: FL_Real Car 22_Body_0
+        - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+          Id: 3112261a-9120-49e1-bd96-1b3f3d5f006e
+          DebugBoundingbox: true
+          IsCullingEnabled: true
+          IsEnabled: true
+          OrderBias: 0
+          RenderFlags: CastShadows
+        - !Evergine.Framework.Physics3D.PhysicWheel3D,Evergine.Framework
+          Id: c2f7f98c-362e-4d3e-a8ce-53f984310876
+          FrictionSlip: 1000.0
+          IsBrakableWheel: true
+          IsDriveWheel: true
+          IsEnabled: true
+          IsFrontWheel: true
+          IsSteerableWheel: true
+          MaxSuspensionForce: 6000.0
+          MaxSuspensionTravel: 5.0
+          OverrideVehicleSettings: false
+          PhysicVehicleEntityPath: null
+          RotationAxis:
+            X: 1.0
+            Y: 0.0
+            Z: 0.0
+          SearchVehicle: FromParents
+          SuspensionCompression: 4.4000001
+          SuspensionDamping: 2.29999995
+          SuspensionDirection:
+            X: 0.0
+            Y: -1.0
+            Z: 0.0
+          SuspensionRestLength: 0.200000003
+          SuspensionStiffness: 20.0
+          WheelRadius: 0.5
+      Children: []
+      Id: 6d6c6d8d-3ef0-470e-9b24-b0294e6d29a7
+    - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+      Name: FR_Wheel
+      Tag: null
+      IsEnabled: true
+      IsStatic: false
+      Components:
+        - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+          Id: e4531a46-e52e-4a7e-a880-f3c6f056dca4
+          IsEnabled: true
+          LocalOrientation:
+            W: 0.0
+            X: 1.0
+            Y: 0.0
+            Z: 0.0
+          LocalPosition:
+            X: -0.999934137
+            Y: -0.592906892
+            Z: 1.36327159
+          LocalScale:
+            X: -1.00000012
+            Y: -1.00000012
+            Z: -1.00000012
+        - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+          Id: 3c5a0f27-e693-4419-a638-143d909f5573
+          AsignedTo: Real_Car_22_Body
+          IsEnabled: true
+          Material: 291e1ecc-5206-442f-9ef4-7fe81ec60220
+          UseCopy: false
+        - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
+          Id: 927c4b9b-e642-4df6-a578-22b8db941922
+          IsEnabled: true
+          Model: 1ef1be97-f553-4411-88db-2524aee400e4
+          ModelMeshName: FL_Real Car 22_Body_0_002
+        - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+          Id: 54310b55-def1-43af-b78e-b809cecf2316
+          DebugBoundingbox: true
+          IsCullingEnabled: true
+          IsEnabled: true
+          OrderBias: 0
+          RenderFlags: CastShadows
+        - !Evergine.Framework.Physics3D.PhysicWheel3D,Evergine.Framework
+          Id: f14f4154-534e-4592-a571-9cf796b6f67b
+          FrictionSlip: 1000.0
+          IsBrakableWheel: true
+          IsDriveWheel: true
+          IsEnabled: true
+          IsFrontWheel: true
+          IsSteerableWheel: true
+          MaxSuspensionForce: 6000.0
+          MaxSuspensionTravel: 5.0
+          OverrideVehicleSettings: false
+          PhysicVehicleEntityPath: null
+          RotationAxis:
+            X: 1.0
+            Y: 0.0
+            Z: 0.0
+          SearchVehicle: FromParents
+          SuspensionCompression: 4.4000001
+          SuspensionDamping: 2.29999995
+          SuspensionDirection:
+            X: 0.0
+            Y: -1.0
+            Z: 0.0
+          SuspensionRestLength: 0.200000003
+          SuspensionStiffness: 20.0
+          WheelRadius: 0.5
+      Children: []
+      Id: 90156d26-8256-4609-bff1-0d2edc2d6a65
+    - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+      Name: RL_Wheel
+      Tag: null
+      IsEnabled: true
+      IsStatic: false
+      Components:
+        - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+          Id: df82268d-3cf6-42bb-9bfa-adf380cbe7c3
+          IsEnabled: true
+          LocalOrientation:
+            W: 1.0
+            X: 0.0
+            Y: 0.0
+            Z: 0.0
+          LocalPosition:
+            X: 0.902164578
+            Y: -0.592906892
+            Z: -1.18303645
+          LocalScale:
+            X: 1.0
+            Y: 1.0
+            Z: 1.0
+        - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+          Id: 0b587af5-dc6f-4d31-9965-1daac5216508
+          AsignedTo: Real_Car_22_Body
+          IsEnabled: true
+          Material: 291e1ecc-5206-442f-9ef4-7fe81ec60220
+          UseCopy: false
+        - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
+          Id: 7529f30c-1780-4382-b7df-4a51b3f738ab
+          IsEnabled: true
+          Model: 1ef1be97-f553-4411-88db-2524aee400e4
+          ModelMeshName: FL_Real Car 22_Body_0_001
+        - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+          Id: 6592ffe5-a1da-43bc-b3dd-a95bad164ac2
+          DebugBoundingbox: true
+          IsCullingEnabled: true
+          IsEnabled: true
+          OrderBias: 0
+          RenderFlags: CastShadows
+        - !Evergine.Framework.Physics3D.PhysicWheel3D,Evergine.Framework
+          Id: c15ddfdb-0c05-4c56-b676-e930905adbd3
+          FrictionSlip: 1000.0
+          IsBrakableWheel: true
+          IsDriveWheel: true
+          IsEnabled: true
+          IsFrontWheel: false
+          IsSteerableWheel: false
+          MaxSuspensionForce: 6000.0
+          MaxSuspensionTravel: 5.0
+          OverrideVehicleSettings: false
+          PhysicVehicleEntityPath: null
+          RotationAxis:
+            X: 1.0
+            Y: 0.0
+            Z: 0.0
+          SearchVehicle: FromParents
+          SuspensionCompression: 4.4000001
+          SuspensionDamping: 2.29999995
+          SuspensionDirection:
+            X: 0.0
+            Y: -1.0
+            Z: 0.0
+          SuspensionRestLength: 0.200000003
+          SuspensionStiffness: 20.0
+          WheelRadius: 0.5
+      Children: []
+      Id: 668b5c4d-1c82-402a-89ff-cbd7fa9979b0
+    - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+      Name: RR_Wheel
+      Tag: null
+      IsEnabled: true
+      IsStatic: false
+      Components:
+        - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+          Id: 9a21f60e-3702-4d01-bdee-39d72a795c9b
+          IsEnabled: true
+          LocalOrientation:
+            W: 0.0
+            X: 1.0
+            Y: 0.0
+            Z: 0.0
+          LocalPosition:
+            X: -0.999934137
+            Y: -0.592906892
+            Z: -1.18303645
+          LocalScale:
+            X: -1.00000012
+            Y: -1.00000012
+            Z: -1.00000012
+        - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+          Id: c5cb57aa-8da7-4bc0-9dfd-2bd4029ce9df
+          AsignedTo: Real_Car_22_Body
+          IsEnabled: true
+          Material: 291e1ecc-5206-442f-9ef4-7fe81ec60220
+          UseCopy: false
+        - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
+          Id: 40881671-3f47-4c81-8568-1b4a9e1b5aaf
+          IsEnabled: true
+          Model: 1ef1be97-f553-4411-88db-2524aee400e4
+          ModelMeshName: FL_Real Car 22_Body_0_003
+        - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+          Id: 87f08ec6-b9d9-49b2-aaf6-36454373c3cb
+          DebugBoundingbox: true
+          IsCullingEnabled: true
+          IsEnabled: true
+          OrderBias: 0
+          RenderFlags: CastShadows
+        - !Evergine.Framework.Physics3D.PhysicWheel3D,Evergine.Framework
+          Id: 6a6e2cab-8a74-4807-9420-521711574b78
+          FrictionSlip: 1000.0
+          IsBrakableWheel: true
+          IsDriveWheel: true
+          IsEnabled: true
+          IsFrontWheel: false
+          IsSteerableWheel: false
+          MaxSuspensionForce: 6000.0
+          MaxSuspensionTravel: 5.0
+          OverrideVehicleSettings: false
+          PhysicVehicleEntityPath: null
+          RotationAxis:
+            X: 1.0
+            Y: 0.0
+            Z: 0.0
+          SearchVehicle: FromParents
+          SuspensionCompression: 4.4000001
+          SuspensionDamping: 2.29999995
+          SuspensionDirection:
+            X: 0.0
+            Y: -1.0
+            Z: 0.0
+          SuspensionRestLength: 0.200000003
+          SuspensionStiffness: 20.0
+          WheelRadius: 0.5
+      Children: []
+      Id: 2620e9c2-5393-4e5e-8414-56cb7c9bc50d
+    - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+      Name: SteeringPivot
+      Tag: Steering
+      IsEnabled: true
+      IsStatic: false
+      Components:
+        - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+          Id: 6a499e1c-647a-466f-a074-f15f6af1d0b4
+          IsEnabled: true
+          LocalOrientation:
+            W: 0.983949661
+            X: 0.178446174
+            Y: 0.0
+            Z: 0.0
+          LocalPosition:
+            X: 0.371616006
+            Y: 0.477824211
+            Z: 0.044128418
+          LocalScale:
+            X: 1.0
+            Y: 1.0
+            Z: 1.0
+      Children:
+        - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+          Name: SteeringWheel
+          Tag: 
+          IsEnabled: true
+          IsStatic: false
+          Components:
+            - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+              Id: 439e63e9-7244-4c5e-b01e-573d1c5c2e83
+              IsEnabled: true
+              LocalOrientation:
+                W: 1.0
+                X: 0.0
+                Y: 0.0
+                Z: 0.0
+              LocalPosition:
+                X: -1.25169754E-06
+                Y: -0.0149999997
+                Z: -1.07288361E-06
+              LocalScale:
+                X: 1.0
+                Y: 1.0
+                Z: 1.0
+            - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+              Id: bd9f3a96-4986-4bf2-a422-a6f98d1e4ef3
+              AsignedTo: Real_Car_22_Body
+              IsEnabled: true
+              Material: 291e1ecc-5206-442f-9ef4-7fe81ec60220
+              UseCopy: false
+            - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
+              Id: 28625081-30a7-4bb2-a381-c55e78dbcb8f
+              IsEnabled: true
+              Model: 1ef1be97-f553-4411-88db-2524aee400e4
+              ModelMeshName: Steering_Real Car 22_Body_0
+            - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+              Id: f8317146-19ae-4593-9b68-c0118b9df1c8
+              DebugBoundingbox: true
+              IsCullingEnabled: true
+              IsEnabled: true
+              OrderBias: 0
+              RenderFlags: CastShadows
+          Children: []
+          Id: 30c8a383-b5ee-45c2-ab0c-5da3bdb5c4d0
+      Id: dd28d59f-d6b8-49b7-941f-e7e59c3c1cc5
+    - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+      Name: InnerCamera
+      Tag: null
+      IsEnabled: true
+      IsStatic: false
+      Components:
+        - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+          Id: dab8e147-74ec-48ee-8faf-974b366ca623
+          IsEnabled: true
+          LocalOrientation:
+            W: 0.0145049179
+            X: -0.00171977421
+            Y: 0.992938757
+            Z: 0.117725693
+          LocalPosition:
+            X: 0.394174278
+            Y: 0.824768305
+            Z: -0.612420678
+          LocalScale:
+            X: 1.0
+            Y: 1.0
+            Z: 1.0
+        - !Evergine.Framework.Graphics.Camera3D,Evergine.Framework
+          Id: c308ccdc-f0f3-47f6-9f15-a54c0f3b02ce
+          Aperture: 1.0
+          AutoDepthBounds: false
+          AutoExposureEnabled: false
+          CameraOrder: 0.0
+          ClearDepth: 1.0
+          ClearFlags: All
+          ClearStencil: 0
+          Compensation: 0.0
+          DisplayTag: null
+          Exposure: 1.0
+          FarPlane: 1000.0
+          FieldOfView: 0.785398185
+          FieldOfViewAxis: Vertical
+          FocalDistance: 1.0
+          FocalLength: 50.0
+          FrameBuffer: null
+          FrustumCullingEnabled: true
+          HDREnabled: true
+          IsEnabled: true
+          LayerMaskDefaultValue: true
+          LinearBackgroundColor:
+            A: 1.0
+            B: 0.851251662
+            G: 0.306634784
+            R: 0.12752977
+          LogLuminanceRange: 12.0
+          MinLogLuminance: -10.0
+          NearPlane: 0.100000001
+          Sensitivity: 100.0
+          SensorSize:
+            X: 36.0
+            Y: 24.0
+          ShutterSpeed: 1.20000005
+          TAU: 1.10000002
+          TagFilter: null
+          UsePhysicalParameters: false
+      Children: []
+      Id: efdfbfb9-1773-4652-8a12-acdc20f01ca6
+  Id: 5c7dd7fd-5de1-4790-a357-bdcffc2cc337

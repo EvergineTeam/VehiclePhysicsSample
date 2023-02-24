@@ -1,0 +1,21 @@
+!Evergine.Assets.Exporters.SamplerMetaFile,Evergine.Assets
+Id: 407be15e-f93c-498a-8432-d9d126d4ef43
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+  SamplerInfo:
+    Id: 29b3861f-2c2b-4bcc-9fb1-01666d2bd211
+    Description:
+      AddressU: Wrap
+      AddressV: Wrap
+      AddressW: Clamp
+      BorderColor: OpaqueWhite
+      ComparisonFunc: Never
+      Filter: MinLinear_MagLinear_MipLinear
+      MaxAnisotropy: 1
+      MaxLOD: 1000.0
+      MinLOD: -1000.0
+      MipLODBias: 0.0
+ExportAsRaw: false
+Profiles: {}

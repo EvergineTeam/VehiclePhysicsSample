@@ -1,0 +1,37 @@
+!Evergine.Assets.Exporters.ModelMetaFile,Evergine.Assets
+Id: 1ef1be97-f553-4411-88db-2524aee400e4
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: f53df7dc-609c-46b8-b079-6cf17b2492d4
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: f375fa51-4451-4057-b0da-647ab53c57d0
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: Real_Car_22_Body
+        Item2: 291e1ecc-5206-442f-9ef4-7fe81ec60220
+      - Item1: Real_Car_22_paint
+        Item2: 82e6ebca-14d7-4154-85d6-dcfc11ab8b7c
+      - Item1: Real_Car_22_mirror
+        Item2: 5221d50a-cfc9-49fb-bf6f-a2132defc550
+      - Item1: Real_Car_22_Glass
+        Item2: d6eeaaf8-9df7-4abf-b384-8dafc7eeab4c
+    Nodes:
+      - Chasis.FL_Wheel
+      - Chasis.FR_Wheel
+      - Chasis.RL_Wheel
+      - Chasis.RR_Wheel
+      - Chasis.SteeringWheel
+      - Chasis
+SwapWindingOrder: false
