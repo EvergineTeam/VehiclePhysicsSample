@@ -2,8 +2,6 @@
 using Evergine.Framework.Graphics;
 using Evergine.Mathematics;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace VehiclePhysicsSample.Camera
 {

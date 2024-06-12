@@ -20,9 +20,10 @@ class Program {
   }
 
   invoke(methodName: string, ...args: any[]) {
-    window.BINDING.call_static_method(
-      `[${this.assemblyName}] ${this.className}:${methodName}`,
-      args
+    DotNet.invokeMethod(
+        `${this.assemblyName}`,
+        `${this.className}:${methodName}`,
+        ...args
     );
   }
 }

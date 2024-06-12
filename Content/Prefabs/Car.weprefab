@@ -122,7 +122,7 @@ Root:
       SuspensionCompression: 4.4000001
       SuspensionDamping: 2.29999995
       SuspensionStiffness: 20.0
-    - !TestPhysicVehicle.CarController,PhysicVehicleSample
+    - !VehiclePhysicsSample.Vehicle.CarController,VehiclePhysicsSample
       Id: 8cf3b1f5-9afe-4d1f-90dc-6337897d0065
       Brake: 20.0
       IsEnabled: true

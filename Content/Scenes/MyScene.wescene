@@ -81,7 +81,7 @@ Items:
         Id: df6c98c3-5fd3-485b-9afe-d17535fceb6b
         AsignedTo: Default
         IsEnabled: true
-        Material: b96febf0-e5af-4c29-8a71-b5cf374c1583
+        Material: 0d1d3545-2389-4a2c-b945-100e6fda9ca3
         UseCopy: false
       - !Evergine.Components.Graphics3D.SphereMesh,Evergine.Components
         Id: 549fd904-99dc-451c-b55a-d3a0f6f16092
@@ -263,11 +263,9 @@ Items:
     Children: []
     Id: 362d20e6-87fa-4254-b674-d86e62117505
   - !Evergine.Framework.Assets.AssetSources.Entities.PrefabInstanceModel,Evergine.Framework
-    Id: 6baad227-256e-4510-9bce-a32d57815f20
-    Source: 49729733-a50d-4b99-b39f-4f2d8dca246d
-    entityLinks:
+    EntityLinks:
       5c7dd7fd-5de1-4790-a357-bdcffc2cc337:
-        additionalChildrenList:
+        AdditionalChildren:
           - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
             Name: CameraPivot
             Tag: null
@@ -292,19 +290,14 @@ Items:
                   Z: 1.0
             Children: []
             Id: 5dca2cb7-2a51-41a0-8214-f105354ba336
-        additionalComponentList:
-          - !VehiclePhysicsSample.Vehicle.CarController,VehiclePhysicsSample
-            Id: 0ffd8948-242f-44b3-8506-9edb6cbaee51
-            Brake: 20.0
-            IsEnabled: true
-            MaxForce: 1000.0
-            UpdateOrder: 0.5
+        AdditionalComponents:
           - !VehiclePhysicsSample.Features.Vehicle.ResetDemo,VehiclePhysicsSample
             Id: fd526a97-f4e3-453b-8022-e5b00a5d0fbe
             IsEnabled: true
             SpawnThreshold: -10.0
             UpdateOrder: 0.5
-    modificationList:
+    Id: 6baad227-256e-4510-9bce-a32d57815f20
+    Modifications:
       - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[System.String,System.Private.CoreLib]],Evergine.Framework
         Name: Name
         Target: 5c7dd7fd-5de1-4790-a357-bdcffc2cc337
@@ -323,15 +316,6 @@ Items:
           X: 0.0
           Y: -9.80000019
           Z: 0.0
-      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[System.Collections.Generic.Dictionary%602[[System.String,System.Private.CoreLib],[System.Object,System.Private.CoreLib]],System.Private.CoreLib]],Evergine.Framework
-        Name: Properties
-        Target: fc47adfb-3291-4437-a9f1-4811110651a8
-        TypedValue:
-          Brake: 20.0
-          Id: 8cf3b1f5-9afe-4d1f-90dc-6337897d0065
-          IsEnabled: true
-          MaxForce: 1000.0
-          UpdateOrder: 0.5
       - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[Evergine.Mathematics.Vector3,Evergine.Mathematics]],Evergine.Framework
         Name: LocalPosition
         Target: 439e63e9-7244-4c5e-b01e-573d1c5c2e83
@@ -343,7 +327,8 @@ Items:
         Name: CameraOrder
         Target: c308ccdc-f0f3-47f6-9f15-a54c0f3b02ce
         TypedValue: 0.5
-    removedComponentList: []
+    RemovedComponents: []
+    Source: 49729733-a50d-4b99-b39f-4f2d8dca246d
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: cube
     Tag: null
@@ -5438,10 +5423,3 @@ Managers:
     PunctualResolution: Size_512
     ShadowFilter: PCF3x3
     SpotResolution: Size_512
-  - !Evergine.Framework.Managers.VirtualScreenManager,Evergine.Framework
-    Id: b4f40b87-f84b-4aa5-a73d-f1886ee09e1c
-    Expand: true
-    IsEnabled: false
-    Stretch: Uniform
-    VirtualHeight: 0.0
-    VirtualWidth: 0.0

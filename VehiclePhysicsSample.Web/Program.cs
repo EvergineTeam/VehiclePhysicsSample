@@ -6,7 +6,7 @@ using Evergine.Framework.Graphics;
 using Evergine.Framework.Services;
 using Evergine.OpenGL;
 using Evergine.Web;
-using WebAssembly;
+using Microsoft.JSInterop;
 
 namespace VehiclePhysicsSample.Web
 {
@@ -27,6 +27,7 @@ namespace VehiclePhysicsSample.Web
             wasm = global::Evergine.Web.WebAssembly.GetInstance();
         }
 
+        [JSInvokable("VehiclePhysicsSample.Web.Program:Run")]
         public static void Run(string canvasId)
         {
             // Create app
@@ -39,7 +40,7 @@ namespace VehiclePhysicsSample.Web
             var canvas = wasm.GetElementById(canvasId);
             var surface = (WebSurface)windowsSystem.CreateSurface(canvas);
             appCanvas[canvasId] = surface;
-            ConfigureGraphicsContext(application, surface);
+            ConfigureGraphicsContext(application, surface, canvasId);
 
             // Audio is currently unsupported
             //var xaudio = new Evergine.XAudio2.XAudioDevice();
@@ -62,12 +63,14 @@ namespace VehiclePhysicsSample.Web
                 });
         }
 
+        [JSInvokable("VehiclePhysicsSample.Web.Program:Destroy")]
         public static void Destroy(string canvasId)
         {
             application.Dispose();
             application = null;
         }
 
+        [JSInvokable("VehiclePhysicsSample.Web.Program:UpdateCanvasSize")]
         public static void UpdateCanvasSize(string canvasId)
         {
             if (appCanvas.TryGetValue(canvasId, out var surface))
@@ -76,10 +79,10 @@ namespace VehiclePhysicsSample.Web
             }
         }
 
-        private static void ConfigureGraphicsContext(Application application, Surface surface)
+        private static void ConfigureGraphicsContext(Application application, Surface surface, string canvasId)
         {
 			// Enabled web canvas antialias (MSAA)
-            wasm.Invoke("window._evergine_EGL");
+            wasm.Invoke("window._evergine_EGL", false, "webgl2", canvasId);
 
             GraphicsContext graphicsContext = new GLGraphicsContext(GraphicsBackend.WebGL2);
             graphicsContext.CreateDevice();

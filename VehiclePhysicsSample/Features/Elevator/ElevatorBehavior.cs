@@ -1,18 +1,13 @@
-﻿using Evergine.Common.Input.Keyboard;
-using Evergine.Common.Input;
-using Evergine.Framework;
+﻿using Evergine.Framework;
 using Evergine.Framework.Graphics;
-using Evergine.Mathematics;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace VehiclePhysicsSample.Features.Elevator
 {
     public class Elevator : Behavior
     {
         [BindComponent]
-        private Transform3D transform;
+        private Transform3D transform = null;
 
         public float Amplitude = 2;
 

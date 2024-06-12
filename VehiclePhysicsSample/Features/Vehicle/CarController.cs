@@ -4,11 +4,7 @@ using Evergine.Framework;
 using Evergine.Framework.Graphics;
 using Evergine.Mathematics;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using Evergine.Common.Graphics;
 using System.Linq;
-using VehiclePhysicsSample;
 using Evergine.Framework.Physics3D;
 
 namespace VehiclePhysicsSample.Vehicle

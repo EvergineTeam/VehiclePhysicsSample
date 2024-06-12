@@ -42,31 +42,23 @@
     <!-- First we load web assembly code -->
     <script src="_framework/blazor.webassembly.js" autostart="false"></script>
 
-    <!-- Second we configure javascript evergine functions on evergine.js-->
-    <script type="text/javascript">
-        var Module =
-            typeof Module !== "undefined"
-                ? new EvergineModule(Module)
-                : new EvergineModule();
-        var app = new App(
-            "VehiclePhysicsSample.Web",
-            "VehiclePhysicsSample.Web.Program",
-            Module
-        );
-    </script>
-
     <!-- Then, start loading the assets into the vfs -->
     <script src="assets.js"></script>
 
     <!-- Finally, run evergine -->
     <script type="text/javascript">
+        var app = new App(
+            "VehiclePhysicsSample.Web",
+            "VehiclePhysicsSample.Web.Program",
+            new EvergineModule()
+        );
         Blazor.start().then(function () {
             // It is not mandatory to run Evergine now, but it must run after blazor is started
             app.startEvergine();
         });
 
-                //// It is possible to delete the Evergine instance by running
-                // app.destroyEvergine();
+        //// It is possible to delete the Evergine instance by running
+        // app.destroyEvergine();
     </script>
 </body>
 </html>

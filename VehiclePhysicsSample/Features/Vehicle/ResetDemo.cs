@@ -5,9 +5,7 @@ using Evergine.Framework.Graphics;
 using Evergine.Framework.Physics3D;
 using Evergine.Mathematics;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace VehiclePhysicsSample.Features.Vehicle
 {
