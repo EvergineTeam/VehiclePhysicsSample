@@ -143,11 +143,9 @@ Items:
         Id: 07d3e21d-cd4b-412f-88a6-1331d8afa583
         IsEnabled: false
         MaxPitch: 1.49225616
-        MouseSensibility: 0.0299999993
         MoveSpeed: 5.0
         RotationSpeed: 5.0
         TouchMoveAndOrientationRatio: 0.5
-        TouchSensibility: 1.0
         UpdateOrder: 0.5
       - !Evergine.Framework.Graphics.Camera3D,Evergine.Framework
         Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
@@ -427,12 +425,6 @@ Items:
         PhysicBodyType: Kinematic
         Restitution: 0.0
         RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !VehiclePhysicsSample.Vehicle.CarController,VehiclePhysicsSample
-        Id: cb94f3d3-e47e-4859-b89b-3fa47b358ceb
-        Brake: 20.0
-        IsEnabled: true
-        MaxForce: 1000.0
         UpdateOrder: 0.5
     Children: []
     Id: 125ad903-1c52-47ee-813b-edbcbfc13922

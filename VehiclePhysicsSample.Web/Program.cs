@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using Evergine.Common.Graphics;
@@ -30,6 +31,10 @@ namespace VehiclePhysicsSample.Web
         [JSInvokable("VehiclePhysicsSample.Web.Program:Run")]
         public static void Run(string canvasId)
         {
+            // Enable Trace
+            Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
+            Trace.AutoFlush = true;
+
             // Create app
             application = new MyApplication();
 
