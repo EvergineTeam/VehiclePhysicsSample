@@ -411,8 +411,8 @@ Root:
           Id: 6a499e1c-647a-466f-a074-f15f6af1d0b4
           IsEnabled: true
           LocalOrientation:
-            W: 0.983949661
-            X: 0.178446174
+            W: 0.98388505
+            X: 0.178802222
             Y: 0.0
             Z: 0.0
           LocalPosition:

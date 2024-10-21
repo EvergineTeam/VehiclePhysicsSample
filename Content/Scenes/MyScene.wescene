@@ -81,7 +81,7 @@ Items:
         Id: df6c98c3-5fd3-485b-9afe-d17535fceb6b
         AsignedTo: Default
         IsEnabled: true
-        Material: 0d1d3545-2389-4a2c-b945-100e6fda9ca3
+        Material: b15a130d-cff0-4e67-9fe9-a3c102d11a3b
         UseCopy: false
       - !Evergine.Components.Graphics3D.SphereMesh,Evergine.Components
         Id: 549fd904-99dc-451c-b55a-d3a0f6f16092
@@ -143,9 +143,11 @@ Items:
         Id: 07d3e21d-cd4b-412f-88a6-1331d8afa583
         IsEnabled: false
         MaxPitch: 1.49225616
+        MouseSensitivity: 0.0299999993
         MoveSpeed: 5.0
         RotationSpeed: 5.0
         TouchMoveAndOrientationRatio: 0.5
+        TouchSensitivity: 1.0
         UpdateOrder: 0.5
       - !Evergine.Framework.Graphics.Camera3D,Evergine.Framework
         Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
@@ -260,73 +262,6 @@ Items:
         UpdateOrder: 1.0
     Children: []
     Id: 362d20e6-87fa-4254-b674-d86e62117505
-  - !Evergine.Framework.Assets.AssetSources.Entities.PrefabInstanceModel,Evergine.Framework
-    EntityLinks:
-      5c7dd7fd-5de1-4790-a357-bdcffc2cc337:
-        AdditionalChildren:
-          - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
-            Name: CameraPivot
-            Tag: null
-            IsEnabled: true
-            IsStatic: false
-            Components:
-              - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
-                Id: aec8199d-4dbb-4a88-aefe-2308574fcb7a
-                IsEnabled: true
-                LocalOrientation:
-                  W: 9.29035409E-08
-                  X: -2.74888691E-07
-                  Y: 0.982936144
-                  Z: 0.183946967
-                LocalPosition:
-                  X: 0.000137329102
-                  Y: 3.71276379
-                  Z: -7.47426367
-                LocalScale:
-                  X: 1.0
-                  Y: 1.0
-                  Z: 1.0
-            Children: []
-            Id: 5dca2cb7-2a51-41a0-8214-f105354ba336
-        AdditionalComponents:
-          - !VehiclePhysicsSample.Features.Vehicle.ResetDemo,VehiclePhysicsSample
-            Id: fd526a97-f4e3-453b-8022-e5b00a5d0fbe
-            IsEnabled: true
-            SpawnThreshold: -10.0
-            UpdateOrder: 0.5
-    Id: 6baad227-256e-4510-9bce-a32d57815f20
-    Modifications:
-      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[System.String,System.Private.CoreLib]],Evergine.Framework
-        Name: Name
-        Target: 5c7dd7fd-5de1-4790-a357-bdcffc2cc337
-        TypedValue: Car
-      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[Evergine.Mathematics.Vector3,Evergine.Mathematics]],Evergine.Framework
-        Name: LocalPosition
-        Target: 6525e557-7692-4d12-ac66-b3e1b03f6474
-        TypedValue:
-          X: 2.49399996
-          Y: 1.68400002
-          Z: 0.246000007
-      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[Evergine.Mathematics.Vector3,Evergine.Mathematics]],Evergine.Framework
-        Name: Gravity
-        Target: 566875b0-90fc-42aa-88bd-d79ef7209f47
-        TypedValue:
-          X: 0.0
-          Y: -9.80000019
-          Z: 0.0
-      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[Evergine.Mathematics.Vector3,Evergine.Mathematics]],Evergine.Framework
-        Name: LocalPosition
-        Target: 439e63e9-7244-4c5e-b01e-573d1c5c2e83
-        TypedValue:
-          X: -1.25169754E-06
-          Y: 0.0
-          Z: -1.07288361E-06
-      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[System.Single,System.Private.CoreLib]],Evergine.Framework
-        Name: CameraOrder
-        Target: c308ccdc-f0f3-47f6-9f15-a54c0f3b02ce
-        TypedValue: 0.5
-    RemovedComponents: []
-    Source: 49729733-a50d-4b99-b39f-4f2d8dca246d
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: cube
     Tag: null
@@ -4367,9 +4302,9 @@ Items:
               Y: 0.0
               Z: 0.0
             LocalPosition:
-              X: -0.105446339
-              Y: 1.17632294
-              Z: -0.404716492
+              X: -0.105407715
+              Y: 1.17640305
+              Z: -0.404738367
             LocalScale:
               X: 1.0
               Y: 1.0
@@ -5387,6 +5322,120 @@ Items:
         Children: []
         Id: 3e668a91-c20e-462d-94e4-25b8cd3c4f85
     Id: 4d9893ca-02f6-481b-b91d-a2f8d461be0e
+  - !Evergine.Framework.Assets.AssetSources.Entities.PrefabInstanceModel,Evergine.Framework
+    EntityLinks:
+      5c7dd7fd-5de1-4790-a357-bdcffc2cc337:
+        AdditionalChildren:
+          - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+            Name: CameraPivot
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+                Id: aec8199d-4dbb-4a88-aefe-2308574fcb7a
+                IsEnabled: true
+                LocalOrientation:
+                  W: 9.29035409E-08
+                  X: -2.74888691E-07
+                  Y: 0.982936144
+                  Z: 0.183946967
+                LocalPosition:
+                  X: 0.000137329102
+                  Y: 3.71276379
+                  Z: -7.47426367
+                LocalScale:
+                  X: 1.0
+                  Y: 1.0
+                  Z: 1.0
+            Children: []
+            Id: 5dca2cb7-2a51-41a0-8214-f105354ba336
+        AdditionalComponents:
+          - !VehiclePhysicsSample.Features.Vehicle.ResetDemo,VehiclePhysicsSample
+            Id: fd526a97-f4e3-453b-8022-e5b00a5d0fbe
+            IsEnabled: true
+            SpawnThreshold: -10.0
+            UpdateOrder: 0.5
+    Id: a1ec1b47-e57c-49ad-85c9-8228363487b7
+    IdDictionary:
+      0b587af5-dc6f-4d31-9965-1daac5216508: 8057bf43-bab2-4b7e-8f84-6eacc10bfff9
+      0f47a6f6-d7f9-4081-a126-8fb584b16e18: e7e1af24-15c5-4002-8543-a9a3da36113c
+      0fd0e3a3-c344-45e8-91f7-d31d9d7bfcff: 1a2609e6-dac5-49d9-949d-9530d8d3d848
+      10a48dff-e61a-4b9d-9de3-5579cdcda81c: d9e888f0-3ba7-4fe4-89c9-aa8a556e8a0d
+      2620e9c2-5393-4e5e-8414-56cb7c9bc50d: 491b249e-e8a7-4523-8042-dc8213402469
+      28625081-30a7-4bb2-a381-c55e78dbcb8f: 1bd80a1a-6659-4f1a-99fb-39d8a155773f
+      2b886b75-4fdb-4501-aa6f-10374f5af111: 70dd896b-bee7-46fe-b163-60cd38c23b44
+      30c8a383-b5ee-45c2-ab0c-5da3bdb5c4d0: 9ff60e21-4a42-49f5-b1cc-b137ddd057a0
+      3112261a-9120-49e1-bd96-1b3f3d5f006e: 5420ec5d-687e-4bbc-9c82-5728c030aa58
+      3a595f68-9212-4c37-9b74-95a3c590a5fc: 911b1777-781b-436d-9e0a-2c9e3a450506
+      3c5a0f27-e693-4419-a638-143d909f5573: 228c9155-2539-4deb-90f8-d7eeeb3dc61d
+      40881671-3f47-4c81-8568-1b4a9e1b5aaf: 090a3348-f074-4ed6-bf8e-ae8b2542e5cc
+      439e63e9-7244-4c5e-b01e-573d1c5c2e83: 68d2757c-eb09-472c-9237-6655de358f7e
+      4792d6c2-6165-423d-a43e-2410dae3ae9b: 8ad2397a-8ec8-48a2-aabf-db0b7efb21af
+      47b95e8a-3c20-4aa6-bd0b-be2d2bc66c0f: 2d66663b-843f-4baa-b9d6-636ed26cafb6
+      54310b55-def1-43af-b78e-b809cecf2316: dc2f1f31-acd0-4c7e-918f-8f23090ae778
+      566875b0-90fc-42aa-88bd-d79ef7209f47: 5cde67d1-0ef3-4913-afae-6458152a78a3
+      5c7dd7fd-5de1-4790-a357-bdcffc2cc337: a1ec1b47-e57c-49ad-85c9-8228363487b7
+      6525e557-7692-4d12-ac66-b3e1b03f6474: 474a4931-1bb1-4db3-965c-b0fad62625a4
+      6592ffe5-a1da-43bc-b3dd-a95bad164ac2: 0f74b16d-d2d9-4d18-a927-e8dd10b570c5
+      668b5c4d-1c82-402a-89ff-cbd7fa9979b0: d83d364e-d7b5-43e9-b1d0-8124d46c4f13
+      6a499e1c-647a-466f-a074-f15f6af1d0b4: dcde769d-14bf-4169-a46d-5dc35085ef74
+      6a6e2cab-8a74-4807-9420-521711574b78: cdc01f76-af50-475f-85a2-6f1919cdf2c4
+      6d6c6d8d-3ef0-470e-9b24-b0294e6d29a7: f395720f-6d27-4fa7-a1d5-3e0f7fbe8a87
+      7529f30c-1780-4382-b7df-4a51b3f738ab: 1ab08843-dce5-451e-bfc6-9f4815a02517
+      7d4ad62c-637f-4afc-8e88-9747ddc21919: bdaf5b53-2eb0-4589-877b-dba83a6aee62
+      8240e75c-b255-4923-ba23-95bf69d7fb58: 7e59c0fe-22a8-4833-a6f8-639302d22097
+      87f08ec6-b9d9-49b2-aaf6-36454373c3cb: fa9ed3c6-a1ee-43bf-9ad3-f55d2b98f108
+      8cf3b1f5-9afe-4d1f-90dc-6337897d0065: 69e7df01-b6d6-4ca0-ac3a-1d61546b239f
+      90156d26-8256-4609-bff1-0d2edc2d6a65: 5db95e4f-67d8-4c96-93a7-3032a47505a4
+      927c4b9b-e642-4df6-a578-22b8db941922: 54248ae3-5394-4e63-954f-03b3bda3893e
+      9a21f60e-3702-4d01-bdee-39d72a795c9b: 79bd0cd4-b96e-4bb8-b2f6-9d3eb231a06d
+      bd9f3a96-4986-4bf2-a422-a6f98d1e4ef3: 91da293d-ade9-46d6-a992-657efbfdbb1a
+      c15ddfdb-0c05-4c56-b676-e930905adbd3: 2b727510-3a09-4f6c-af80-6efc38fa0ec7
+      c2f7f98c-362e-4d3e-a8ce-53f984310876: bffde239-14a6-4cb9-bba4-d91fcefe84be
+      c308ccdc-f0f3-47f6-9f15-a54c0f3b02ce: 3c04ba97-d42b-4d44-bde0-dcb78679d489
+      c5cb57aa-8da7-4bc0-9dfd-2bd4029ce9df: bc84da3b-5442-4062-8568-8260cea4189f
+      dab8e147-74ec-48ee-8faf-974b366ca623: 0b9b7520-a57d-42db-ba27-d698e542a7e3
+      dd28d59f-d6b8-49b7-941f-e7e59c3c1cc5: cb90e687-ce3d-43f2-956d-e8f8ce96e492
+      dde83b07-e05c-4ee2-83c3-22a3442e4496: e7724ad0-6220-4066-9a27-9c76f913833a
+      df82268d-3cf6-42bb-9bfa-adf380cbe7c3: c4282b6c-f39e-4dcf-a579-f4193cac5bf8
+      e349ada4-fef3-49fb-bf0e-7abb12cc3de4: 9df2f96d-cc41-4e9f-a3bd-a3b2ac36b6a9
+      e4531a46-e52e-4a7e-a880-f3c6f056dca4: e76c3be4-dd06-441b-9df2-3973c0c3d071
+      efdfbfb9-1773-4652-8a12-acdc20f01ca6: fffb84d8-5efc-4275-9deb-235e3757477e
+      f14f4154-534e-4592-a571-9cf796b6f67b: b57ba53a-48a5-4002-a5fd-81a683d12097
+      f8317146-19ae-4593-9b68-c0118b9df1c8: 4b74912c-796b-4a81-9616-f04de2e34e42
+    Modifications:
+      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[System.String,System.Private.CoreLib]],Evergine.Framework
+        Name: Name
+        Target: 5c7dd7fd-5de1-4790-a357-bdcffc2cc337
+        TypedValue: Car
+      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[Evergine.Mathematics.Vector3,Evergine.Mathematics]],Evergine.Framework
+        Name: LocalPosition
+        Target: 6525e557-7692-4d12-ac66-b3e1b03f6474
+        TypedValue:
+          X: 2.49399996
+          Y: 1.81067371
+          Z: 0.245999962
+      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[Evergine.Mathematics.Vector3,Evergine.Mathematics]],Evergine.Framework
+        Name: Gravity
+        Target: 566875b0-90fc-42aa-88bd-d79ef7209f47
+        TypedValue:
+          X: 0.0
+          Y: -9.80000019
+          Z: 0.0
+      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[Evergine.Mathematics.Vector3,Evergine.Mathematics]],Evergine.Framework
+        Name: LocalPosition
+        Target: 439e63e9-7244-4c5e-b01e-573d1c5c2e83
+        TypedValue:
+          X: -1.25169754E-06
+          Y: 0.0
+          Z: -1.07288361E-06
+      - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[System.Single,System.Private.CoreLib]],Evergine.Framework
+        Name: CameraOrder
+        Target: c308ccdc-f0f3-47f6-9f15-a54c0f3b02ce
+        TypedValue: 0.5
+    RemovedComponents: []
+    Source: 49729733-a50d-4b99-b39f-4f2d8dca246d
 Managers:
   - !Evergine.Framework.Managers.AssetSceneManager,Evergine.Framework
     Id: 4ae9964a-5a8a-463f-b714-050389b3b68c
