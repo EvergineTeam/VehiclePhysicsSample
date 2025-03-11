@@ -1,13 +1,13 @@
-# Vehicle Physics  Sample
+# Physics  Sample
 
-### Live Demo here: [Vehicle Physics Sample](https://vehiclephysics.z6.web.core.windows.net/)
+### Live Demo here: [Physics Sample](https://vehiclephysics.z6.web.core.windows.net/)
 
-This sample shows how you can use Evergine to perform vehicle physics simulations that interact with other physics elements.
+This sample shows how you can use Evergine to perform physics simulations that interact with other physics elements.
 
 ![alt Screenshot](Screenshots/screenshots01.jpg)
 ![alt Screenshot](Screenshots/screenshots02.jpg)
 
-Model created by **[Maker Game Studios](https://sketchfab.com/MakerGamesStudios)** available in **[Sketchfab](https://sketchfab.com/3d-models/real-car-new-d90c7f830f9c41398bb55de4a2e001be)** and adapted for this application.
+Car model created by **[Maker Game Studios](https://sketchfab.com/MakerGamesStudios)** available in **[Sketchfab](https://sketchfab.com/3d-models/real-car-new-d90c7f830f9c41398bb55de4a2e001be)** and adapted for this application.
 
 ## Build and Run
 - Required Visual Studio 2022 with .NET6 support
