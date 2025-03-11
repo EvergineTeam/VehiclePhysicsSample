@@ -81,7 +81,7 @@ Items:
         Id: df6c98c3-5fd3-485b-9afe-d17535fceb6b
         AsignedTo: Default
         IsEnabled: true
-        Material: b15a130d-cff0-4e67-9fe9-a3c102d11a3b
+        Material: 57c27c4a-9b3f-46f0-8aa7-033f87d3eac3
         UseCopy: false
       - !Evergine.Components.Graphics3D.SphereMesh,Evergine.Components
         Id: 549fd904-99dc-451c-b55a-d3a0f6f16092
@@ -355,7 +355,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -439,7 +439,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -540,7 +540,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -582,9 +582,9 @@ Items:
         LocalPosition:
           X: -9.53674316E-07
           Y: 3.32902408
-          Z: 35.0498161
+          Z: 39.6246719
         LocalScale:
-          X: 17.6128979
+          X: 11.0475931
           Y: 2.0
           Z: 8.10719681
       - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
@@ -641,7 +641,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -742,7 +742,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -799,9 +799,9 @@ Items:
         LocalPosition:
           X: 24.6262665
           Y: 3.32902789
-          Z: 29.1968708
+          Z: 30.117527
         LocalScale:
-          X: 26.7796917
+          X: 28.7281017
           Y: 2.0
           Z: 8.10719681
       - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
@@ -858,7 +858,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -893,14 +893,14 @@ Items:
         Id: 81847f6a-9806-4ae2-a358-1f9c89e1e430
         IsEnabled: true
         LocalOrientation:
-          W: 0.028003091
-          X: -0.00287433388
-          Y: -0.999603748
-          Z: 8.05222662E-05
+          W: -4.37115837E-08
+          X: -0.00287546148
+          Y: -0.999995887
+          Z: 5.27625166E-12
         LocalPosition:
           X: 11.9405546
           Y: 3.32902503
-          Z: 39.1163673
+          Z: 39.5426292
         LocalScale:
           X: 17.6128979
           Y: 2.0
@@ -959,7 +959,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -994,10 +994,10 @@ Items:
         Id: 5807e7dd-18f0-4537-b8da-19eac08b48f7
         IsEnabled: true
         LocalOrientation:
-          W: 0.028003091
-          X: -0.00287433388
-          Y: -0.999603748
-          Z: 8.05222662E-05
+          W: -4.37115837E-08
+          X: -0.00287546148
+          Y: -0.999995887
+          Z: 5.27625166E-12
         LocalPosition:
           X: 19.6345119
           Y: -2.1229651
@@ -1060,7 +1060,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -1100,18 +1100,18 @@ Items:
           Y: 0.707103848
           Z: 0.00203325856
         LocalPosition:
-          X: -0.140961647
-          Y: 5.14184856
+          X: 7.94254684
+          Y: 4.41599751
           Z: 43.8696938
         LocalScale:
           X: 0.5687989
           Y: 3.59096885
-          Z: 8.10719681
+          Z: 42.4598389
       - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
         Id: 24e06645-1139-4f3c-b657-5ca3e6290f75
         AsignedTo: Default
         IsEnabled: true
-        Material: 91d6b4e3-d827-46a6-a43d-cc6f459f732d
+        Material: 50aa6f24-ca76-4643-8e09-1f5e95e3c58c
         UseCopy: false
       - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
         Id: 1ac75a29-751d-4580-a914-6212257ac89b
@@ -1161,7 +1161,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -1186,6 +1186,309 @@ Items:
           Z: 1.0
     Children: []
     Id: 7bf4d4dd-f949-4535-892e-02447907896a
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: cube
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: 821f1b60-f4d3-41a2-a908-05bb9ef8781a
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.999995887
+          X: 0.0
+          Y: 0.0
+          Z: 0.00287546194
+        LocalPosition:
+          X: 28.9203186
+          Y: 4.41600895
+          Z: 29.7103958
+        LocalScale:
+          X: 0.5687989
+          Y: 3.59096885
+          Z: 28.2085857
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+        Id: bc7c4560-432e-477a-b90c-b8a1658ea668
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 50aa6f24-ca76-4643-8e09-1f5e95e3c58c
+        UseCopy: false
+      - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+        Id: f4d35e06-2368-444e-bd32-dbfb6a47e336
+        IsEnabled: true
+        Size: 1.0
+        UMirror: false
+        UOffset: 0.0
+        UTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+        Id: 0fb9c86d-d91c-4b66-864f-38cf2e5401f0
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+        RenderFlags: CastShadows
+      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        Id: 01c010e6-1554-4f19-a764-97035522412e
+        AngularDamping: 0.0
+        AngularFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        AngularVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        CcdMotionThreshold: 0.0
+        CcdSweptSphereRadius: 0.200000003
+        CollisionCategories: Cat1
+        Friction: 0.5
+        Gravity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        IsEnabled: true
+        IsSensor: false
+        LinearDamping: 0.0
+        LinearFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        LinearVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        MaskBits: All
+        Mass: 0.200000003
+        OverrideGravity: false
+        PhysicBodyType: Kinematic
+        Restitution: 0.0
+        RollingFriction: 0.0
+        UpdateOrder: 0.5
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: af207a3b-f259-433f-95ca-f2b9ec39cbd0
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children: []
+    Id: 99a443a2-6ca2-4095-a14c-e9dd2eb264ca
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: cube
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: 02754f08-a516-431c-a015-d06bea8136f5
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.98346734
+          X: -0.181085601
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 28.9203205
+          Y: 1.12536335
+          Z: 8.57908535
+        LocalScale:
+          X: 0.5687989
+          Y: 3.59096885
+          Z: 16.4310436
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+        Id: 956ba525-91e0-461c-ae54-ff9cfbf60958
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 50aa6f24-ca76-4643-8e09-1f5e95e3c58c
+        UseCopy: false
+      - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+        Id: e94a2069-92be-4aa1-a911-4733357c3cac
+        IsEnabled: true
+        Size: 1.0
+        UMirror: false
+        UOffset: 0.0
+        UTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+        Id: 41cbc440-9fde-4841-a4f3-c718fa9d334f
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+        RenderFlags: CastShadows
+      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        Id: 11d5a86b-9297-4030-b021-6733f4b1fbca
+        AngularDamping: 0.0
+        AngularFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        AngularVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        CcdMotionThreshold: 0.0
+        CcdSweptSphereRadius: 0.200000003
+        CollisionCategories: Cat1
+        Friction: 0.5
+        Gravity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        IsEnabled: true
+        IsSensor: false
+        LinearDamping: 0.0
+        LinearFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        LinearVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        MaskBits: All
+        Mass: 0.200000003
+        OverrideGravity: false
+        PhysicBodyType: Kinematic
+        Restitution: 0.0
+        RollingFriction: 0.0
+        UpdateOrder: 0.5
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: 88afb89f-c610-4847-ba58-6667afc863a2
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children: []
+    Id: 670364c7-52a0-41d8-906e-014c3b9f982f
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: cube
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: 3a8b22b0-6b55-4384-9b73-39b5aec5cec7
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.98346734
+          X: -0.181085601
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: -4.23575592
+          Y: 1.45193386
+          Z: 18.9694977
+        LocalScale:
+          X: 0.5687989
+          Y: 3.59096885
+          Z: 14.5598812
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+        Id: 9f05faf1-25e8-4247-b4b4-38c7a7eb446c
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 50aa6f24-ca76-4643-8e09-1f5e95e3c58c
+        UseCopy: false
+      - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+        Id: 9f7278e6-e627-4b9b-b9e1-adf45b3e51eb
+        IsEnabled: true
+        Size: 1.0
+        UMirror: false
+        UOffset: 0.0
+        UTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+        Id: 32f3cc97-d858-471d-86b5-58c3e7b4a0a0
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+        RenderFlags: CastShadows
+      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        Id: c2ea9446-781f-4015-be63-6aa93f50cc64
+        AngularDamping: 0.0
+        AngularFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        AngularVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        CcdMotionThreshold: 0.0
+        CcdSweptSphereRadius: 0.200000003
+        CollisionCategories: Cat1
+        Friction: 0.5
+        Gravity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        IsEnabled: true
+        IsSensor: false
+        LinearDamping: 0.0
+        LinearFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        LinearVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        MaskBits: All
+        Mass: 0.200000003
+        OverrideGravity: false
+        PhysicBodyType: Kinematic
+        Restitution: 0.0
+        RollingFriction: 0.0
+        UpdateOrder: 0.5
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: 9ff47def-af00-401e-82fe-54d2ecf803a5
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children: []
+    Id: dff93b53-9238-4ff0-8b9d-52e3ecc64d5a
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: cube
     Tag: null
@@ -1262,7 +1565,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -1287,6 +1590,107 @@ Items:
           Z: 1.0
     Children: []
     Id: 5a777eb4-4040-4567-a613-eefe88488a8e
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: cube
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: fb47b7ad-8645-4914-8418-753d607db36e
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.707103848
+          X: 0.00203325856
+          Y: 0.707103848
+          Z: 0.00203325856
+        LocalPosition:
+          X: 20.5477562
+          Y: -0.952387333
+          Z: -6.20082092
+        LocalScale:
+          X: 0.5687989
+          Y: 3.59096885
+          Z: 15.886466
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+        Id: da86dcb6-945c-4149-ae8a-d720ec20b587
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 50aa6f24-ca76-4643-8e09-1f5e95e3c58c
+        UseCopy: false
+      - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+        Id: 4dbbd10b-51eb-430f-a0bc-46171f511b5c
+        IsEnabled: true
+        Size: 1.0
+        UMirror: false
+        UOffset: 0.0
+        UTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+        Id: 1db1d726-79bf-4ecb-8457-1039875af9ce
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+        RenderFlags: CastShadows
+      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        Id: 96579be3-ccd6-493b-98a2-a0558c901f1e
+        AngularDamping: 0.0
+        AngularFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        AngularVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        CcdMotionThreshold: 0.0
+        CcdSweptSphereRadius: 0.200000003
+        CollisionCategories: Cat1
+        Friction: 0.5
+        Gravity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        IsEnabled: true
+        IsSensor: false
+        LinearDamping: 0.0
+        LinearFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        LinearVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        MaskBits: All
+        Mass: 0.200000003
+        OverrideGravity: false
+        PhysicBodyType: Kinematic
+        Restitution: 0.0
+        RollingFriction: 0.0
+        UpdateOrder: 0.5
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: 5c061f09-3bdd-4be1-82ae-7875c6102e01
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children: []
+    Id: 7beca870-ed5f-4f14-9e34-40d747ad90fc
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: cube
     Tag: null
@@ -1363,7 +1767,7 @@ Items:
           Y: 0.0
           Z: 0.0
         MaskBits: All
-        Mass: 1.0
+        Mass: 0.200000003
         OverrideGravity: false
         PhysicBodyType: Kinematic
         Restitution: 0.0
@@ -1487,7 +1891,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -1588,7 +1992,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -1689,7 +2093,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -1790,7 +2194,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -1891,7 +2295,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -1992,7 +2396,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -2093,7 +2497,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -2194,7 +2598,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -2295,7 +2699,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -2396,7 +2800,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -2497,7 +2901,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -2598,7 +3002,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -2723,7 +3127,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -2824,7 +3228,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -2925,7 +3329,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3026,7 +3430,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3127,7 +3531,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3228,7 +3632,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3329,7 +3733,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3430,7 +3834,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3531,7 +3935,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3632,7 +4036,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3733,7 +4137,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3834,7 +4238,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -3959,7 +4363,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4060,7 +4464,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4161,7 +4565,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4262,7 +4666,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4363,7 +4767,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4464,7 +4868,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4565,7 +4969,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4690,7 +5094,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4791,7 +5195,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4892,7 +5296,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -4993,7 +5397,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -5094,7 +5498,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -5195,7 +5599,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -5296,7 +5700,7 @@ Items:
               Y: 0.0
               Z: 0.0
             MaskBits: All
-            Mass: 1.0
+            Mass: 0.200000003
             OverrideGravity: false
             PhysicBodyType: Dynamic
             Restitution: 0.0
@@ -5322,6 +5726,1274 @@ Items:
         Children: []
         Id: 3e668a91-c20e-462d-94e4-25b8cd3c4f85
     Id: 4d9893ca-02f6-481b-b91d-a2f8d461be0e
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: Pile
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: ab21a079-854b-4e5c-98b5-7e7d82abce35
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.999371886
+          X: 0.0354409851
+          Y: -2.11245021E-09
+          Z: -8.42365955E-16
+        LocalPosition:
+          X: 0.894739151
+          Y: 5.67277479
+          Z: 32.4478607
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children:
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: cube_1
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: a8ad4fc8-0634-4ce7-bbb5-3ed9bbc527b3
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -0.653286457
+              Y: -0.000931978226
+              Z: -1.02291679
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: cf44dd67-ba8b-4e90-bb82-befad1c51e78
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 5767106a-12ac-4529-b7b4-3666388066d3
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: 7b3001fc-0634-4f80-bc2c-c4a85b3ec91f
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: a37b93ec-ce1a-4986-92d8-1be475fa9634
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: c04a5a50-44b5-4951-9379-6b8fd49d27c2
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: -9.80000019
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.300000012
+            OverrideGravity: false
+            PhysicBodyType: Dynamic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: 19f75d21-b369-40f1-aea0-e0d44f12aa25
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+        Children: []
+        Id: ad2c8598-ffdd-43ca-9892-5a2fb42839f0
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: cube_1
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: fba2c412-6a5a-4ca6-957e-79cab46acf59
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -0.105447292
+              Y: -0.000931978226
+              Z: 0.114988327
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: 4f59575e-1ded-43b1-8e19-9524bdd6ebd6
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 5767106a-12ac-4529-b7b4-3666388066d3
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: e4c895fb-c05e-4ca9-9ef4-399085ddbfc7
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: dba7f1af-fb95-4b08-bb3c-b521dcacd4af
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: 3334edfa-3a52-4789-a06c-f557569aa53d
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: -9.80000019
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.300000012
+            OverrideGravity: false
+            PhysicBodyType: Dynamic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: 18219453-fafa-4a83-adbe-a9b3cdf4ccd6
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+        Children: []
+        Id: 24db3afb-a1c3-4d36-a2bd-848f4b840ca7
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: cube_1
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: 1034007f-e6d5-458e-81e6-cdf5357b8fb9
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.431315422
+              Y: -0.17137742
+              Z: -0.959754944
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: 2f3a9ba5-05cb-4de3-b33a-ea9a23692058
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 5767106a-12ac-4529-b7b4-3666388066d3
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: 70679757-cbcb-4c6f-bc31-4eefe8ca0cbb
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: 4292294d-9bbb-4937-aadc-ac622520a40f
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: 933a974f-1baa-4512-a1de-b7a41e438fd5
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: -9.80000019
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.300000012
+            OverrideGravity: false
+            PhysicBodyType: Dynamic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: 28edbfd4-d7a7-4fb7-817d-13937fbc4cf3
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+        Children: []
+        Id: ddf0c11d-6695-4cc7-9944-19fbc53f4381
+    Id: 4f3a7530-44a9-4e10-9f84-52f4e88575ee
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: Bridge
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: 9e1e1942-dbd1-4dae-836e-4d5cabb92253
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 0.917243958
+          Y: -3.44901752
+          Z: 27.9278908
+        LocalScale:
+          X: 1.86040092
+          Y: 1.86040092
+          Z: 1.86040092
+    Children:
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: link
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: f8fbc46c-3c69-4fb3-95e0-b41d30f76fd7
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -0.333248317
+              Y: 4.10603857
+              Z: 3.0
+            LocalScale:
+              X: 3.62117004
+              Y: 0.178394899
+              Z: 0.516904652
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: ac74599b-641f-46eb-867b-4bfa485ca171
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 02181b63-5a0e-46d1-9208-d92376ae33fb
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: 3000de65-74c7-4084-89a7-460c56c0fed0
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: f289420c-8ed0-41cf-bdac-bb3ce68061c3
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: a3b4bf2b-baad-4329-9426-b6be72ce3b6d
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.200000003
+            OverrideGravity: false
+            PhysicBodyType: Kinematic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: 7ba9eecf-1b7b-4297-af45-4990215ebdc4
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.20000005
+        Children: []
+        Id: 7f9a0835-cb42-43c4-af95-6b65439b7181
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: link1
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: 1483585e-58cd-4daa-a9fe-29611bb65d6f
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -0.333248317
+              Y: 4.10603857
+              Z: 2.39999962
+            LocalScale:
+              X: 3.62117004
+              Y: 0.178394899
+              Z: 0.516904652
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: a2cb8294-5a32-4878-a115-92b96359fd3a
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 02181b63-5a0e-46d1-9208-d92376ae33fb
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: 205e83ee-faae-4c9a-a315-11ed5e6d86fd
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: fc991593-7e24-4fa5-8ab0-a22361a70613
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: cd9adaab-fd67-4ad8-98cb-714e521b6661
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: -9.80000019
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.200000003
+            OverrideGravity: false
+            PhysicBodyType: Dynamic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: 91c6b5f7-d393-4983-b10a-d7306f24eddb
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.20000005
+          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            Id: ec0965a2-c8e8-4ca8-8a48-6fe7c8dbeb42
+            Anchor:
+              X: 0.0
+              Y: 0.0
+              Z: 0.300000012
+            AutoConfigureConnected: true
+            Axis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            BreakPoint: 0.0
+            CollideConnected: false
+            ConnectedAnchor:
+              X: 0.0
+              Y: 0.0
+              Z: -0.816241443
+            ConnectedAxis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            ConnectedEntityPath: Bridge.link
+            DebugDrawSize: 0.300000012
+            IsEnabled: true
+            LimitBiasFactor: 0.800000012
+            LimitRelaxationFactor: 0.25
+            LimitSoftness: 0.299999982
+            LowerAngularLimit: 0.0
+            MotorTargetImpulse: 0.0
+            MotorTargetVelocity: 0.0
+            NeedsFeedback: false
+            OverrideNumSolverIterations: -1
+            UpperAngularLimit: 0.0
+            UseAngularLimit: false
+            UseMotor: true
+        Children: []
+        Id: 2373ba70-2e74-4c15-b548-b21f2ef84a06
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: link2
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: bda71954-9208-49de-a8dd-fb11c3e439cd
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -0.333248317
+              Y: 4.10603857
+              Z: 1.79999924
+            LocalScale:
+              X: 3.62117004
+              Y: 0.178394899
+              Z: 0.516904652
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: 8afcf65a-f18e-4939-b919-fb7db291a6d0
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 02181b63-5a0e-46d1-9208-d92376ae33fb
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: f1a66a59-36e5-418f-bb82-dd51a73a9c51
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: b5bcae81-d019-4bc9-b2c1-55bacd68e06b
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: 1fc87f32-0811-4196-9509-fa2142bdfbbf
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: -9.80000019
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.200000003
+            OverrideGravity: false
+            PhysicBodyType: Dynamic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: 44f6a033-3b6d-4697-8351-74fd85f7e7c2
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.20000005
+          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            Id: 15470bd1-f62c-4df2-9a0a-cb282a100ce5
+            Anchor:
+              X: 0.0
+              Y: 0.0
+              Z: 0.300000012
+            AutoConfigureConnected: true
+            Axis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            BreakPoint: 0.0
+            CollideConnected: false
+            ConnectedAnchor:
+              X: 0.0
+              Y: 0.0
+              Z: -0.816241443
+            ConnectedAxis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            ConnectedEntityPath: Bridge.link1
+            DebugDrawSize: 0.300000012
+            IsEnabled: true
+            LimitBiasFactor: 0.800000012
+            LimitRelaxationFactor: 0.25
+            LimitSoftness: 0.299999982
+            LowerAngularLimit: 0.0
+            MotorTargetImpulse: 0.0
+            MotorTargetVelocity: 0.0
+            NeedsFeedback: false
+            OverrideNumSolverIterations: -1
+            UpperAngularLimit: 0.0
+            UseAngularLimit: false
+            UseMotor: false
+        Children: []
+        Id: b3d4a8aa-502e-453f-acee-a6685e2dbc15
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: link3
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: f59faabe-7507-4ba2-94cb-c7f02d24f60e
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -0.333248317
+              Y: 4.10603857
+              Z: 1.19998932
+            LocalScale:
+              X: 3.62117004
+              Y: 0.178394899
+              Z: 0.516904652
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: 991fe076-8ad5-411c-8f08-6e88cbb11b5c
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 02181b63-5a0e-46d1-9208-d92376ae33fb
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: 1aa26c53-0848-4297-893e-0bc83ea1ab1e
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: f864a24c-bd2a-4306-ac80-a0a10d0a9966
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: 452f12c8-7c32-431d-bf3f-51d2421d6edf
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: -9.80000019
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.200000003
+            OverrideGravity: false
+            PhysicBodyType: Dynamic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: 1f03f2c1-4bf7-4b21-8afd-986856685c97
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.20000005
+          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            Id: 8356f547-2ef8-446a-adc5-2148c0d6294e
+            Anchor:
+              X: 0.0
+              Y: 0.0
+              Z: 0.300000012
+            AutoConfigureConnected: true
+            Axis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            BreakPoint: 0.0
+            CollideConnected: false
+            ConnectedAnchor:
+              X: 0.0
+              Y: 0.0
+              Z: -0.816258609
+            ConnectedAxis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            ConnectedEntityPath: Bridge.link2
+            DebugDrawSize: 0.300000012
+            IsEnabled: true
+            LimitBiasFactor: 0.800000012
+            LimitRelaxationFactor: 0.25
+            LimitSoftness: 0.299999982
+            LowerAngularLimit: 0.0
+            MotorTargetImpulse: 0.0
+            MotorTargetVelocity: 0.0
+            NeedsFeedback: false
+            OverrideNumSolverIterations: -1
+            UpperAngularLimit: 0.0
+            UseAngularLimit: false
+            UseMotor: false
+        Children: []
+        Id: 4904a67d-aaef-4fa7-a531-8a79f3d3fdc8
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: link4
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: 3c89c703-ea64-452b-a1e9-75bfaa2a6300
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -0.333248317
+              Y: 4.10603857
+              Z: 0.599935532
+            LocalScale:
+              X: 3.62117004
+              Y: 0.178394899
+              Z: 0.516904652
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: c6635bd7-3751-4706-b6c1-65c352a7a79a
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 02181b63-5a0e-46d1-9208-d92376ae33fb
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: b8431228-6aa2-4c02-a9e3-36d8cef48185
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: 206ec483-4553-45fe-b712-30c1bc1bab6f
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: 7d75a0b2-f83b-4d8b-98b4-647c379376d0
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: -9.80000019
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.200000003
+            OverrideGravity: false
+            PhysicBodyType: Dynamic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: ca4f89c7-0824-4dbb-9cae-01ac07595b39
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.20000005
+          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            Id: c089d49c-33d6-417a-a861-fb6671456a4f
+            Anchor:
+              X: 0.0
+              Y: 0.0
+              Z: 0.300000012
+            AutoConfigureConnected: true
+            Axis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            BreakPoint: 0.0
+            CollideConnected: false
+            ConnectedAnchor:
+              X: 0.0
+              Y: 0.0
+              Z: -0.816340625
+            ConnectedAxis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            ConnectedEntityPath: Bridge.link3
+            DebugDrawSize: 0.300000012
+            IsEnabled: true
+            LimitBiasFactor: 0.800000012
+            LimitRelaxationFactor: 0.25
+            LimitSoftness: 0.299999982
+            LowerAngularLimit: 0.0
+            MotorTargetImpulse: 0.0
+            MotorTargetVelocity: 0.0
+            NeedsFeedback: false
+            OverrideNumSolverIterations: -1
+            UpperAngularLimit: 0.0
+            UseAngularLimit: false
+            UseMotor: false
+        Children: []
+        Id: e9434175-eefb-4f54-96ba-51801a55c1b9
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: link5
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: 1a99d34c-15eb-453d-8f81-11262dd72acc
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -0.333248317
+              Y: 4.10603857
+              Z: -6.48498535E-05
+            LocalScale:
+              X: 3.62117004
+              Y: 0.178394899
+              Z: 0.516904652
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: 27446e03-ccf2-4a4f-b1de-84fe2e1599cd
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 02181b63-5a0e-46d1-9208-d92376ae33fb
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: 73f6c04a-f6dd-468e-9661-207c51bce675
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: 7a8f302a-8e41-4821-920e-636dcf562d15
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: 1068a61b-3329-4061-8c4b-ed894c445ed8
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: -9.80000019
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.200000003
+            OverrideGravity: false
+            PhysicBodyType: Dynamic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: 80d7f35c-7887-4de2-9be2-37345c6577bd
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.20000005
+          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            Id: b9cf39c2-cc24-4519-8772-84b39539c5b1
+            Anchor:
+              X: 0.0
+              Y: 0.0
+              Z: 0.300000012
+            AutoConfigureConnected: true
+            Axis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            BreakPoint: 0.0
+            CollideConnected: false
+            ConnectedAnchor:
+              X: 0.0
+              Y: 0.0
+              Z: -0.816241443
+            ConnectedAxis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            ConnectedEntityPath: Bridge.link4
+            DebugDrawSize: 0.300000012
+            IsEnabled: true
+            LimitBiasFactor: 0.800000012
+            LimitRelaxationFactor: 0.25
+            LimitSoftness: 0.299999982
+            LowerAngularLimit: 0.0
+            MotorTargetImpulse: 0.0
+            MotorTargetVelocity: 0.0
+            NeedsFeedback: false
+            OverrideNumSolverIterations: -1
+            UpperAngularLimit: 0.0
+            UseAngularLimit: false
+            UseMotor: false
+        Children: []
+        Id: 505c150c-d8f1-467a-a628-0d06362f0545
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+        Name: link6
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+            Id: d19552fd-1fff-43b9-b64c-c967381e6d2e
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: -0.333248317
+              Y: 4.10603857
+              Z: -0.600067139
+            LocalScale:
+              X: 3.62117004
+              Y: 0.178394899
+              Z: 0.516904652
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+            Id: 1a63d143-cb03-4bb8-ac73-83ce7152da76
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 02181b63-5a0e-46d1-9208-d92376ae33fb
+            UseCopy: false
+          - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+            Id: 46330204-8d5a-4629-a8b0-28f651ec7350
+            IsEnabled: true
+            Size: 1.0
+            UMirror: false
+            UOffset: 0.0
+            UTile: 1.0
+            VMirror: false
+            VOffset: 0.0
+            VTile: 1.0
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+            Id: 8a88382c-7b98-47ef-9aae-f6a94a6353f5
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+            RenderFlags: CastShadows
+          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+            Id: 33a8c566-6b70-4522-8f98-a322566dacfa
+            AngularDamping: 0.0
+            AngularFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            AngularVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            CcdMotionThreshold: 0.0
+            CcdSweptSphereRadius: 0.200000003
+            CollisionCategories: Cat1
+            Friction: 0.5
+            Gravity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            IsEnabled: true
+            IsSensor: false
+            LinearDamping: 0.0
+            LinearFactor:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+            LinearVelocity:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            MaskBits: All
+            Mass: 0.200000003
+            OverrideGravity: false
+            PhysicBodyType: Kinematic
+            Restitution: 0.0
+            RollingFriction: 0.0
+            UpdateOrder: 0.5
+          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            Id: f98c5f1a-aef4-4c4b-99b6-fc39faee2c1b
+            IsEnabled: true
+            Margin: 0.0399999991
+            Offset:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            OrientationOffset:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            Size:
+              X: 1.0
+              Y: 1.0
+              Z: 1.20000005
+          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            Id: 90d6a5e0-96ff-446f-8114-7a3c19539669
+            Anchor:
+              X: 0.0
+              Y: 0.0
+              Z: 0.300000012
+            AutoConfigureConnected: true
+            Axis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            BreakPoint: 0.0
+            CollideConnected: false
+            ConnectedAnchor:
+              X: 0.0
+              Y: 0.0
+              Z: -0.816245258
+            ConnectedAxis:
+              X: 1.0
+              Y: 0.0
+              Z: 0.0
+            ConnectedEntityPath: Bridge.link5
+            DebugDrawSize: 0.300000012
+            IsEnabled: true
+            LimitBiasFactor: 0.800000012
+            LimitRelaxationFactor: 0.25
+            LimitSoftness: 0.299999982
+            LowerAngularLimit: 0.0
+            MotorTargetImpulse: 0.0
+            MotorTargetVelocity: 0.0
+            NeedsFeedback: false
+            OverrideNumSolverIterations: -1
+            UpperAngularLimit: 0.0
+            UseAngularLimit: false
+            UseMotor: false
+        Children: []
+        Id: a9291762-9ab3-44b0-92b6-f821718c8697
+    Id: e01d609d-11d9-454d-9d9a-82df879acedf
   - !Evergine.Framework.Assets.AssetSources.Entities.PrefabInstanceModel,Evergine.Framework
     EntityLinks:
       5c7dd7fd-5de1-4790-a357-bdcffc2cc337:
@@ -5362,6 +7034,7 @@ Items:
       0f47a6f6-d7f9-4081-a126-8fb584b16e18: e7e1af24-15c5-4002-8543-a9a3da36113c
       0fd0e3a3-c344-45e8-91f7-d31d9d7bfcff: 1a2609e6-dac5-49d9-949d-9530d8d3d848
       10a48dff-e61a-4b9d-9de3-5579cdcda81c: d9e888f0-3ba7-4fe4-89c9-aa8a556e8a0d
+      25b90f2f-ab92-4687-94d1-22f804407782: 94b5bd52-b095-43b2-8e10-9ac254c6c3a7
       2620e9c2-5393-4e5e-8414-56cb7c9bc50d: 491b249e-e8a7-4523-8042-dc8213402469
       28625081-30a7-4bb2-a381-c55e78dbcb8f: 1bd80a1a-6659-4f1a-99fb-39d8a155773f
       2b886b75-4fdb-4501-aa6f-10374f5af111: 70dd896b-bee7-46fe-b163-60cd38c23b44
@@ -5371,11 +7044,11 @@ Items:
       3c5a0f27-e693-4419-a638-143d909f5573: 228c9155-2539-4deb-90f8-d7eeeb3dc61d
       40881671-3f47-4c81-8568-1b4a9e1b5aaf: 090a3348-f074-4ed6-bf8e-ae8b2542e5cc
       439e63e9-7244-4c5e-b01e-573d1c5c2e83: 68d2757c-eb09-472c-9237-6655de358f7e
-      4792d6c2-6165-423d-a43e-2410dae3ae9b: 8ad2397a-8ec8-48a2-aabf-db0b7efb21af
       47b95e8a-3c20-4aa6-bd0b-be2d2bc66c0f: 2d66663b-843f-4baa-b9d6-636ed26cafb6
       54310b55-def1-43af-b78e-b809cecf2316: dc2f1f31-acd0-4c7e-918f-8f23090ae778
       566875b0-90fc-42aa-88bd-d79ef7209f47: 5cde67d1-0ef3-4913-afae-6458152a78a3
       5c7dd7fd-5de1-4790-a357-bdcffc2cc337: a1ec1b47-e57c-49ad-85c9-8228363487b7
+      5e752ec1-6907-48f3-8c96-6c49d835d033: c0ecb486-eb54-463d-9834-0334b6d7f3e6
       6525e557-7692-4d12-ac66-b3e1b03f6474: 474a4931-1bb1-4db3-965c-b0fad62625a4
       6592ffe5-a1da-43bc-b3dd-a95bad164ac2: 0f74b16d-d2d9-4d18-a927-e8dd10b570c5
       668b5c4d-1c82-402a-89ff-cbd7fa9979b0: d83d364e-d7b5-43e9-b1d0-8124d46c4f13
@@ -5413,9 +7086,9 @@ Items:
         Name: LocalPosition
         Target: 6525e557-7692-4d12-ac66-b3e1b03f6474
         TypedValue:
-          X: 2.49399996
-          Y: 1.81067371
-          Z: 0.245999962
+          X: 0.0496134758
+          Y: 0.817920208
+          Z: 0.245998815
       - !Evergine.Framework.Assets.AssetSources.Entities.PrefabModification%601[[Evergine.Mathematics.Vector3,Evergine.Mathematics]],Evergine.Framework
         Name: Gravity
         Target: 566875b0-90fc-42aa-88bd-d79ef7209f47
@@ -5436,6 +7109,583 @@ Items:
         TypedValue: 0.5
     RemovedComponents: []
     Source: 49729733-a50d-4b99-b39f-4f2d8dca246d
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: point1
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: 027ad9a7-9e78-4579-86ac-340758e06c78
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: -0.0384819508
+          Y: 4.97230148
+          Z: 15.7764378
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+        Id: eb0f0c33-f780-4e38-9992-0924f6a8b6f1
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 5767106a-12ac-4529-b7b4-3666388066d3
+        UseCopy: false
+      - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+        Id: 30b35ac1-430e-46d4-88a3-80fabe0c6c3b
+        IsEnabled: true
+        Size: 0.5
+        UMirror: false
+        UOffset: 0.0
+        UTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+        Id: 0daf172a-df3f-4eab-bc6e-a5e8845eb560
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+        RenderFlags: CastShadows
+      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        Id: be66b676-74b2-4239-aa9b-8f14b8687ad5
+        AngularDamping: 0.0
+        AngularFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        AngularVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        CcdMotionThreshold: 0.0
+        CcdSweptSphereRadius: 0.200000003
+        CollisionCategories: Cat1
+        Friction: 0.5
+        Gravity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        IsEnabled: true
+        IsSensor: false
+        LinearDamping: 0.0
+        LinearFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        LinearVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        MaskBits: All
+        Mass: 1.0
+        OverrideGravity: false
+        PhysicBodyType: Kinematic
+        Restitution: 0.0
+        RollingFriction: 0.0
+        UpdateOrder: 0.5
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: 04c7d3c1-d6ba-418a-9154-ea9ddf4dbef2
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children: []
+    Id: cb27817e-22d7-44b1-8235-7e3b2c553a5d
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: point2
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: 855832c3-658f-4a6e-b9c0-6238847931fc
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: -0.0384819508
+          Y: 3.89869618
+          Z: 15.7764378
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+        Id: 566580bd-442e-4944-a790-b2f4edca71e6
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 5767106a-12ac-4529-b7b4-3666388066d3
+        UseCopy: false
+      - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+        Id: 843bfa7f-0d21-4736-b841-e333b75c0202
+        IsEnabled: true
+        Size: 0.5
+        UMirror: false
+        UOffset: 0.0
+        UTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+        Id: 2c107cf5-1f7e-4f90-9ebe-55b411cf510f
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+        RenderFlags: CastShadows
+      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        Id: 0e16b53c-d1e9-4d03-91ad-63fd33ea707a
+        AngularDamping: 0.0
+        AngularFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        AngularVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        CcdMotionThreshold: 0.0
+        CcdSweptSphereRadius: 0.200000003
+        CollisionCategories: Cat1
+        Friction: 0.5
+        Gravity:
+          X: 0.0
+          Y: -9.80000019
+          Z: 0.0
+        IsEnabled: true
+        IsSensor: false
+        LinearDamping: 0.0
+        LinearFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        LinearVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        MaskBits: All
+        Mass: 1.0
+        OverrideGravity: false
+        PhysicBodyType: Dynamic
+        Restitution: 0.0
+        RollingFriction: 0.0
+        UpdateOrder: 0.5
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: f22c7cc6-2592-4ae2-aa22-353715af5097
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Framework.Physics3D.PointToPointJoint3D,Evergine.Framework
+        Id: ccecfcac-cf4a-47ac-95bc-425be8368a57
+        Anchor:
+          X: 0.0
+          Y: 0.300000012
+          Z: 0.0
+        AutoConfigureConnected: true
+        BreakPoint: 0.0
+        CollideConnected: false
+        ConnectedAnchor:
+          X: 0.0
+          Y: -0.773605287
+          Z: 0.0
+        ConnectedEntityPath: point1
+        DebugDrawSize: 0.300000012
+        IsEnabled: true
+        NeedsFeedback: false
+        OverrideNumSolverIterations: -1
+    Children: []
+    Id: 52142149-e23b-433c-879a-c8496884ee5b
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: point3
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: d4d3e798-71fc-43a5-85b3-6fa0243b2a0c
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: -0.0384819508
+          Y: 2.97450852
+          Z: 15.7764378
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+        Id: 277b8e23-d2be-455c-9a10-c1745e165455
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 5767106a-12ac-4529-b7b4-3666388066d3
+        UseCopy: false
+      - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+        Id: 4db5a419-8eaa-43ee-a2fc-5a94970cc0da
+        IsEnabled: true
+        Size: 0.5
+        UMirror: false
+        UOffset: 0.0
+        UTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+        Id: 777c571b-d502-4a59-af6f-7c4062371639
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+        RenderFlags: CastShadows
+      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        Id: 41ba9ca0-c544-4638-bac6-177a9c37cd85
+        AngularDamping: 0.0
+        AngularFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        AngularVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        CcdMotionThreshold: 0.0
+        CcdSweptSphereRadius: 0.200000003
+        CollisionCategories: Cat1
+        Friction: 0.5
+        Gravity:
+          X: 0.0
+          Y: -9.80000019
+          Z: 0.0
+        IsEnabled: true
+        IsSensor: false
+        LinearDamping: 0.0
+        LinearFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        LinearVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        MaskBits: All
+        Mass: 1.0
+        OverrideGravity: false
+        PhysicBodyType: Dynamic
+        Restitution: 0.0
+        RollingFriction: 0.0
+        UpdateOrder: 0.5
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: 246ea07e-2991-4750-a065-e3c042ced933
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Framework.Physics3D.PointToPointJoint3D,Evergine.Framework
+        Id: 772c6234-fa9b-4069-9a9e-f88f9585ba08
+        Anchor:
+          X: 0.0
+          Y: 0.300000012
+          Z: 0.0
+        AutoConfigureConnected: true
+        BreakPoint: 0.0
+        CollideConnected: false
+        ConnectedAnchor:
+          X: 0.0
+          Y: -0.624187648
+          Z: 0.0
+        ConnectedEntityPath: point2
+        DebugDrawSize: 0.300000012
+        IsEnabled: true
+        NeedsFeedback: false
+        OverrideNumSolverIterations: -1
+    Children: []
+    Id: 85f7d76d-47d2-481c-a900-9cfcdf86eef0
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: point4
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: 8534310d-73f7-439d-bab7-ce9ca27c2a69
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: -0.0384819508
+          Y: 2.18856907
+          Z: 15.7764378
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+        Id: 0dd0f1a7-6faa-4a00-a368-e33f804deadb
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 5767106a-12ac-4529-b7b4-3666388066d3
+        UseCopy: false
+      - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+        Id: 21dd7488-5f46-4d0f-8857-da739bb947c6
+        IsEnabled: true
+        Size: 0.5
+        UMirror: false
+        UOffset: 0.0
+        UTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+        Id: 043b1445-4177-456b-b762-fb4a7783fb71
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+        RenderFlags: CastShadows
+      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        Id: 2adeb330-3f6f-4464-99d1-534dbdd0e500
+        AngularDamping: 0.0
+        AngularFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        AngularVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        CcdMotionThreshold: 0.0
+        CcdSweptSphereRadius: 0.200000003
+        CollisionCategories: Cat1
+        Friction: 0.5
+        Gravity:
+          X: 0.0
+          Y: -9.80000019
+          Z: 0.0
+        IsEnabled: true
+        IsSensor: false
+        LinearDamping: 0.0
+        LinearFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        LinearVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        MaskBits: All
+        Mass: 1.0
+        OverrideGravity: false
+        PhysicBodyType: Dynamic
+        Restitution: 0.0
+        RollingFriction: 0.0
+        UpdateOrder: 0.5
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: eae5f43c-d414-4f14-9ff1-f4511b4e7915
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Framework.Physics3D.PointToPointJoint3D,Evergine.Framework
+        Id: 174476d6-082b-4582-803b-b6d964f2fee3
+        Anchor:
+          X: 0.0
+          Y: 0.300000012
+          Z: 0.0
+        AutoConfigureConnected: true
+        BreakPoint: 0.0
+        CollideConnected: false
+        ConnectedAnchor:
+          X: 0.0
+          Y: -0.485939443
+          Z: 0.0
+        ConnectedEntityPath: point3
+        DebugDrawSize: 0.300000012
+        IsEnabled: true
+        NeedsFeedback: false
+        OverrideNumSolverIterations: -1
+    Children: []
+    Id: 3d83fe1d-af97-4416-9e4c-aeba377aa9da
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: point4
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: 3e43a10f-c6b5-4193-841a-a0414e3ac43f
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: -0.0384819508
+          Y: 1.54376507
+          Z: 15.7764378
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+        Id: 60692a05-d159-4670-b78e-a750c478032e
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 5767106a-12ac-4529-b7b4-3666388066d3
+        UseCopy: false
+      - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
+        Id: 39ca223a-a032-4bac-a0e9-cd474b683fba
+        IsEnabled: true
+        Size: 0.5
+        UMirror: false
+        UOffset: 0.0
+        UTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+        Id: 4676df48-af1a-4e66-a814-fc320a5dfe16
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+        RenderFlags: CastShadows
+      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        Id: 35e3885f-125d-49d7-9d11-24cf92e36751
+        AngularDamping: 0.0
+        AngularFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        AngularVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        CcdMotionThreshold: 0.0
+        CcdSweptSphereRadius: 0.200000003
+        CollisionCategories: Cat1
+        Friction: 0.5
+        Gravity:
+          X: 0.0
+          Y: -9.80000019
+          Z: 0.0
+        IsEnabled: true
+        IsSensor: false
+        LinearDamping: 0.0
+        LinearFactor:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+        LinearVelocity:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        MaskBits: All
+        Mass: 1.0
+        OverrideGravity: false
+        PhysicBodyType: Dynamic
+        Restitution: 0.0
+        RollingFriction: 0.0
+        UpdateOrder: 0.5
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: 2df439e7-6aaa-42d9-b9fc-7f8c28ec9629
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Framework.Physics3D.PointToPointJoint3D,Evergine.Framework
+        Id: 3d65666f-0386-4c91-ae10-f7dadbae4661
+        Anchor:
+          X: 0.0
+          Y: 0.300000012
+          Z: 0.0
+        AutoConfigureConnected: true
+        BreakPoint: 0.0
+        CollideConnected: false
+        ConnectedAnchor:
+          X: 0.0
+          Y: -0.344803989
+          Z: 0.0
+        ConnectedEntityPath: point4
+        DebugDrawSize: 0.300000012
+        IsEnabled: true
+        NeedsFeedback: false
+        OverrideNumSolverIterations: -1
+    Children: []
+    Id: d4e77ec6-ff44-49c8-9c52-b8d40d9d1c17
 Managers:
   - !Evergine.Framework.Managers.AssetSceneManager,Evergine.Framework
     Id: 4ae9964a-5a8a-463f-b714-050389b3b68c

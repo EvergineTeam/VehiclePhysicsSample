@@ -94,25 +94,6 @@ Root:
       Restitution: 0.0
       RollingFriction: 0.0
       UpdateOrder: 0.5
-    - !Evergine.Framework.Physics3D.MeshCollider3D,Evergine.Framework
-      Id: 4792d6c2-6165-423d-a43e-2410dae3ae9b
-      AsyncShapeCreation: false
-      IsConvex: true
-      IsEnabled: true
-      Margin: 0.0399999991
-      Offset:
-        X: 0.0
-        Y: 0.0
-        Z: 0.0
-      OrientationOffset:
-        W: 1.0
-        X: 0.0
-        Y: 0.0
-        Z: 0.0
-      Size:
-        X: 1.0
-        Y: 1.0
-        Z: 1.0
     - !Evergine.Framework.Physics3D.PhysicVehicle3D,Evergine.Framework
       Id: 47b95e8a-3c20-4aa6-bd0b-be2d2bc66c0f
       FrictionSlip: 1000.0
@@ -128,6 +109,40 @@ Root:
       IsEnabled: true
       MaxForce: 1000.0
       UpdateOrder: 0.5
+    - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+      Id: 25b90f2f-ab92-4687-94d1-22f804407782
+      IsEnabled: true
+      Margin: 0.0399999991
+      Offset:
+        X: 0.0
+        Y: -0.300000012
+        Z: 0.0
+      OrientationOffset:
+        W: 1.0
+        X: 0.0
+        Y: 0.0
+        Z: -0.0
+      Size:
+        X: 0.899999976
+        Y: 0.550000012
+        Z: 0.899999976
+    - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+      Id: 5e752ec1-6907-48f3-8c96-6c49d835d033
+      IsEnabled: true
+      Margin: 0.0399999991
+      Offset:
+        X: 0.0
+        Y: 0.400000006
+        Z: -0.600000024
+      OrientationOffset:
+        W: 1.0
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 0.800000012
+        Y: 0.400000006
+        Z: 0.600000024
   Children:
     - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
       Name: FL_Wheel
