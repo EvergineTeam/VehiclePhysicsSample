@@ -1,11 +1,13 @@
 {
-    "compilerOptions": {
-      "noImplicitAny": false,
-      "noEmitOnError": true,
-      "removeComments": false,
-      "target": "es6",
-      "outFile": "wwwroot/evergine.js"
-    },
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "target": "es6",
+    "outFile": "wwwroot/evergine.js",
+    "rootDir": "./ts",
+    "ignoreDeprecations": "6.0"
+  },
     "include": [
       "ts/**/*"
     ],

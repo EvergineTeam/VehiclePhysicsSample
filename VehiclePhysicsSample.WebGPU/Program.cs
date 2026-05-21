@@ -103,6 +103,7 @@ namespace VehiclePhysicsSample.WebGPU
             };
             var swapChain = graphicsContext.CreateSwapChain(swapChainDescription);
             swapChain.VerticalSync = true;
+            swapChain.FrameBuffer.IntermediateBufferAssociated = false;
 
             var graphicsPresenter = application.Container.Resolve<GraphicsPresenter>();
             var firstDisplay = new Display(surface, swapChain);
