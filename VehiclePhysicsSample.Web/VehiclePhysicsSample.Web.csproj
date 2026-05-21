@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
   </PropertyGroup>
@@ -6,7 +6,7 @@
     <PublishTrimmed Condition="'$(Configuration)' == 'Debug'">false</PublishTrimmed>
     <PublishTrimmed Condition="'$(Configuration)' == 'Release'">true</PublishTrimmed>
     <BlazorEnableCompression Condition="'$(Configuration)' == 'Debug'">false</BlazorEnableCompression>
-    <!-- <RunAOTCompilation>true</RunAOTCompilation> -->
+    <RunAOTCompilation>true</RunAOTCompilation>
     <!-- <AOTMode>LLVMOnly</AOTMode> -->
   </PropertyGroup>
   <ItemGroup>
@@ -19,20 +19,20 @@
     <WasmAllowUndefinedSymbols>True</WasmAllowUndefinedSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.20" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.20" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="5.9.2">
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.5" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="6.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Evergine.Framework" Version="2026.5.21.271-nightly" />
-    <PackageReference Include="Evergine.Targets" Version="2026.5.21.271-nightly" />
-    <PackageReference Include="Evergine.Targets.Web" Version="2026.5.21.271-nightly" />
-    <PackageReference Include="Evergine.Web" Version="2026.5.21.271-nightly" />
-    <PackageReference Include="Evergine.OpenGL" Version="2026.5.21.271-nightly" />
-    <PackageReference Include="Evergine.HLSLEverywhere" Version="2026.5.21.271-nightly" />
+    <PackageReference Include="Evergine.Framework" Version="2026.5.21.1038-nightly" />
+    <PackageReference Include="Evergine.Targets" Version="2026.5.21.1038-nightly" />
+    <PackageReference Include="Evergine.Targets.Web" Version="2026.5.21.1038-nightly" />
+    <PackageReference Include="Evergine.Web" Version="2026.5.21.1038-nightly" />
+    <PackageReference Include="Evergine.OpenGL" Version="2026.5.21.1038-nightly" />
+    <PackageReference Include="Evergine.HLSLEverywhere" Version="2026.5.21.1038-nightly" />
     <PackageReference Include="Evergine.LibBulletc.Natives.Wasm" Version="2025.8.29.27" />
   </ItemGroup>
   <ItemGroup>

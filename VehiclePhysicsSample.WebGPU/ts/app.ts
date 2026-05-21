@@ -1,6 +1,6 @@
 class App {
-  containerId: string = "evergine-canvas-container";
-  canvasId: string = "evergine-canvas";
+  containerId!: string;
+  canvasId!: string;
   program: Program;
   module: EvergineModule;
   static requestAnimationFrameCallback: ((d: any) => void) | undefined;
@@ -21,10 +21,9 @@ class App {
     if (!container) {
       alert(
         "Initialization failed: canvas container '" +
-          this.containerId +
-          "' not found."
+        this.containerId +
+        "' not found."
       );
-      return;
     }
 
     let canvas = document.createElement("canvas") as HTMLCanvasElement;
@@ -55,10 +54,6 @@ class App {
 
   destroyEvergine() {
     let container = document.getElementById(this.containerId) as HTMLDivElement;
-    if (!container) {
-      return;
-    }
-
     container.replaceChildren();
     this.program.Destroy(this.canvasId);
   }
@@ -103,11 +98,7 @@ class App {
       this.canvasId
     ) as HTMLCanvasElement;
     evergineCanvas.setAttribute("style", "image-rendering: crisp-edges");
-    let context = evergineCanvas.getContext("2d");
-    if (!context) {
-      return;
-    }
-
+    let context = evergineCanvas.getContext("2d")!;
     context.fillStyle = "black";
     context.font = "16pt Arial";
     context.fillText(unsupportedBrowserErrorMessage, 4, 20);

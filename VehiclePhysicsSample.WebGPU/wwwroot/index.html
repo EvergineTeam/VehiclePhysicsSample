@@ -12,23 +12,32 @@
     <script type="text/javascript" src="stats.min.js"></script>
 </head>
 
-  <body class="dark">
+<body class="dark">
     <div id="evergine-canvas-container"></div>
+    <div class="help" tabindex="-1">
+        <p>Help:</p>
+        <ul>
+            <li><strong>W,A,S,D or ← → ↑ ↓:</strong> Control the vehicle</li>
+            <li><strong>Space: </strong>Brake the vehicle</li>
+            <li><strong>C:</strong> Change camera</li>
+            <li><strong>Enter, Tab: </strong>Reset the demo</li>
+        </ul>
+    </div>
     <div id="splash">
-      <div id="splash-content">
-        <div class="logo-container">
-          <img class="logo-img" alt="Evergine logo" />
-          <div class="separator"></div>
-        </div>
-        <div id="loading-bar" class="progress">
-          <div>
-            <strong>Loading...</strong>
-            <div class="loading-bar-container">
-              <div id="loading-bar-percentage" class="progress-bar"></div>
+        <div id="splash-content">
+            <div class="logo-container">
+                <img class="logo-img" alt="Evergine logo" />
+                <div class="separator"></div>
             </div>
-          </div>
+            <div id="loading-bar" class="progress">
+                <div>
+                    <strong>Loading...</strong>
+                    <div class="loading-bar-container">
+                        <div id="loading-bar-percentage" class="progress-bar"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- First we load web assembly code -->
@@ -39,33 +48,33 @@
 
     <!-- Finally, run evergine -->
     <script type="text/javascript">
-      var app = new App(
-        "VehiclePhysicsSample.WebGPU",
-        "VehiclePhysicsSample.WebGPU.Program",
-        new EvergineModule()
-      );
-      Blazor.start().then(async function () {
-	  
-		// Set WebGPU device
-		const adapter = await navigator.gpu.requestAdapter();
-		const device = await adapter.requestDevice({
-			requiredLimits: {
-				maxStorageBuffersPerShaderStage: 10 // Request support for up to 10 storage buffers in a single shader stage
-			}
-		});
+        var app = new App(
+            "VehiclePhysicsSample.WebGPU",
+            "VehiclePhysicsSample.WebGPU.Program",
+            new EvergineModule()
+        );
+        Blazor.start().then(async function () {
 
-		if (Blazor && Blazor.runtime && Blazor.runtime.Module) {
-			Blazor.runtime.Module.preinitializedWebGPUDevice = device;
-		} else {
-			window.Module.preinitializedWebGPUDevice = device;
-		}
-		
-        // It is not mandatory to run Evergine now, but it must run after blazor is started
-        app.startEvergine();
-      });
+            // Set WebGPU device
+            const adapter = await navigator.gpu.requestAdapter();
+            const device = await adapter.requestDevice({
+                requiredLimits: {
+                    maxStorageBuffersPerShaderStage: 10 // Request support for up to 10 storage buffers in a single shader stage
+                }
+            });
 
-      //// It is possible to delete the Evergine instance by running
-      // app.destroyEvergine();
+            if (Blazor && Blazor.runtime && Blazor.runtime.Module) {
+                Blazor.runtime.Module.preinitializedWebGPUDevice = device;
+            } else {
+                window.Module.preinitializedWebGPUDevice = device;
+            }
+
+            // It is not mandatory to run Evergine now, but it must run after blazor is started
+            app.startEvergine();
+        });
+
+        //// It is possible to delete the Evergine instance by running
+        // app.destroyEvergine();
     </script>
-  </body>
+</body>
 </html>

@@ -8,12 +8,11 @@
     "rootDir": "./ts",
     "ignoreDeprecations": "6.0"
   },
-    "include": [
-      "ts/**/*"
-    ],
-    "exclude": [
-      "node_modules",
-      "wwwroot"
-    ]
-  }
-  
+  "include": [
+    "ts/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
