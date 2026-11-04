@@ -57,92 +57,79 @@ Root:
       IsEnabled: true
       OrderBias: 0
       RenderFlags: CastShadows
-    - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+    - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
       Id: 566875b0-90fc-42aa-88bd-d79ef7209f47
       AngularDamping: 0.0
-      AngularFactor:
-        X: 1.0
-        Y: 1.0
-        Z: 1.0
-      AngularVelocity:
-        X: 0.0
-        Y: 0.0
-        Z: 0.0
-      CcdMotionThreshold: 0.0
-      CcdSweptSphereRadius: 0.200000003
-      CollisionCategories: Cat1
+      CollisionCategory: Cat1
       Friction: 0.5
-      Gravity:
-        X: 0.0
-        Y: -9.80000019
-        Z: 0.0
       IsEnabled: true
       IsSensor: false
       LinearDamping: 0.0
-      LinearFactor:
-        X: 1.0
-        Y: 1.0
-        Z: 1.0
-      LinearVelocity:
-        X: 0.0
-        Y: 0.0
-        Z: 0.0
-      MaskBits: All
       Mass: 800.0
-      OverrideGravity: false
-      PhysicBodyType: Dynamic
       Restitution: 0.0
-      RollingFriction: 0.0
-      UpdateOrder: 0.5
-    - !Evergine.Framework.Physics3D.PhysicVehicle3D,Evergine.Framework
+      IsKinematic: false
+      AllowedDegreesOfFreedom: All
+    - !Evergine.Framework.Physics.WheeledVehicleController,Evergine.Framework
       Id: 47b95e8a-3c20-4aa6-bd0b-be2d2bc66c0f
-      FrictionSlip: 1000.0
       IsEnabled: true
-      MaxSuspensionForce: 6000.0
-      MaxSuspensionTravel: 5.0
-      SuspensionCompression: 4.4000001
-      SuspensionDamping: 2.29999995
-      SuspensionStiffness: 20.0
+      Up:
+        X: 0
+        Y: 1
+        Z: 0
+      Forward:
+        X: 0
+        Y: 0
+        Z: 1
+      MaxPitchRollAngle: 0.7853982
+      CollisionTesterType: CastSphere
+      EngineMaxTorque: 400
+      FrontWheelLeft: 1
+      FrontWheelRight: 0
+      RearWheelLeft: 3
+      RearWheelRight: 2
+      FrontWheelDrive: true
+      RearWheelDrive: true
+      AntiRollStiffness: 666.6667
     - !VehiclePhysicsSample.Vehicle.CarController,VehiclePhysicsSample
       Id: 8cf3b1f5-9afe-4d1f-90dc-6337897d0065
       Brake: 20.0
       IsEnabled: true
       MaxForce: 1000.0
       UpdateOrder: 0.5
-    - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
       Id: 25b90f2f-ab92-4687-94d1-22f804407782
       IsEnabled: true
-      Margin: 0.0399999991
       Offset:
         X: 0.0
         Y: -0.300000012
         Z: 0.0
-      OrientationOffset:
-        W: 1.0
-        X: 0.0
-        Y: 0.0
-        Z: -0.0
+      RotationOffset:
+        X: 0
+        Y: 0
+        Z: 0
       Size:
         X: 0.899999976
         Y: 0.550000012
         Z: 0.899999976
-    - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+      UseModelBounds: true
+      ConvexRadius: 0.0399999991
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
       Id: 5e752ec1-6907-48f3-8c96-6c49d835d033
       IsEnabled: true
-      Margin: 0.0399999991
       Offset:
         X: 0.0
         Y: 0.400000006
         Z: -0.600000024
-      OrientationOffset:
-        W: 1.0
-        X: 0.0
-        Y: 0.0
-        Z: 0.0
+      RotationOffset:
+        X: 0
+        Y: 0
+        Z: 0
       Size:
         X: 0.800000012
         Y: 0.400000006
         Z: 0.600000024
+      UseModelBounds: true
+      ConvexRadius: 0.0399999991
   Children:
     - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
       Name: FL_Wheel
@@ -184,32 +171,31 @@ Root:
           IsEnabled: true
           OrderBias: 0
           RenderFlags: CastShadows
-        - !Evergine.Framework.Physics3D.PhysicWheel3D,Evergine.Framework
+        - !Evergine.Framework.Physics.VehicleWheel,Evergine.Framework
           Id: c2f7f98c-362e-4d3e-a8ce-53f984310876
-          FrictionSlip: 1000.0
-          IsBrakableWheel: true
-          IsDriveWheel: true
           IsEnabled: true
-          IsFrontWheel: true
-          IsSteerableWheel: true
-          MaxSuspensionForce: 6000.0
-          MaxSuspensionTravel: 5.0
-          OverrideVehicleSettings: false
-          PhysicVehicleEntityPath: null
-          RotationAxis:
-            X: 1.0
-            Y: 0.0
-            Z: 0.0
-          SearchVehicle: FromParents
-          SuspensionCompression: 4.4000001
-          SuspensionDamping: 2.29999995
           SuspensionDirection:
             X: 0.0
             Y: -1.0
             Z: 0.0
-          SuspensionRestLength: 0.200000003
-          SuspensionStiffness: 20.0
-          WheelRadius: 0.5
+          Radius: 0.5
+          Width: 0.25
+          UseModelBounds: true
+          MaxSteerAngle: 0.5235988
+          MaxBrakeTorque: 1000
+          MaxHandBrakeTorque: 0.0
+          SuspensionMinLength: 0
+          SuspensionMaxLength: 0.2
+          SuspensionPreloadLength: 0.0
+          SuspensionSpring:
+            Mode: FrequencyAndDamping
+            FrequencyOrStiffness: 1.4235251
+            Damping: 0.7490828
+          Inertia: 1.8367347
+          AngularDamping: 0.2
+          LongitudinalFrictionScale: 1.4947027
+          LateralFrictionScale: 1.4947027
+          UpdateEntityTransform: true
       Children: []
       Id: 6d6c6d8d-3ef0-470e-9b24-b0294e6d29a7
     - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -252,32 +238,31 @@ Root:
           IsEnabled: true
           OrderBias: 0
           RenderFlags: CastShadows
-        - !Evergine.Framework.Physics3D.PhysicWheel3D,Evergine.Framework
+        - !Evergine.Framework.Physics.VehicleWheel,Evergine.Framework
           Id: f14f4154-534e-4592-a571-9cf796b6f67b
-          FrictionSlip: 1000.0
-          IsBrakableWheel: true
-          IsDriveWheel: true
           IsEnabled: true
-          IsFrontWheel: true
-          IsSteerableWheel: true
-          MaxSuspensionForce: 6000.0
-          MaxSuspensionTravel: 5.0
-          OverrideVehicleSettings: false
-          PhysicVehicleEntityPath: null
-          RotationAxis:
-            X: 1.0
-            Y: 0.0
-            Z: 0.0
-          SearchVehicle: FromParents
-          SuspensionCompression: 4.4000001
-          SuspensionDamping: 2.29999995
           SuspensionDirection:
             X: 0.0
             Y: -1.0
             Z: 0.0
-          SuspensionRestLength: 0.200000003
-          SuspensionStiffness: 20.0
-          WheelRadius: 0.5
+          Radius: 0.5
+          Width: 0.25
+          UseModelBounds: true
+          MaxSteerAngle: 0.5235988
+          MaxBrakeTorque: 1000
+          MaxHandBrakeTorque: 0.0
+          SuspensionMinLength: 0
+          SuspensionMaxLength: 0.2
+          SuspensionPreloadLength: 0.0
+          SuspensionSpring:
+            Mode: FrequencyAndDamping
+            FrequencyOrStiffness: 1.4235251
+            Damping: 0.7490828
+          Inertia: 1.8367347
+          AngularDamping: 0.2
+          LongitudinalFrictionScale: 1.4947027
+          LateralFrictionScale: 1.4947027
+          UpdateEntityTransform: true
       Children: []
       Id: 90156d26-8256-4609-bff1-0d2edc2d6a65
     - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -320,32 +305,31 @@ Root:
           IsEnabled: true
           OrderBias: 0
           RenderFlags: CastShadows
-        - !Evergine.Framework.Physics3D.PhysicWheel3D,Evergine.Framework
+        - !Evergine.Framework.Physics.VehicleWheel,Evergine.Framework
           Id: c15ddfdb-0c05-4c56-b676-e930905adbd3
-          FrictionSlip: 1000.0
-          IsBrakableWheel: true
-          IsDriveWheel: true
           IsEnabled: true
-          IsFrontWheel: false
-          IsSteerableWheel: false
-          MaxSuspensionForce: 6000.0
-          MaxSuspensionTravel: 5.0
-          OverrideVehicleSettings: false
-          PhysicVehicleEntityPath: null
-          RotationAxis:
-            X: 1.0
-            Y: 0.0
-            Z: 0.0
-          SearchVehicle: FromParents
-          SuspensionCompression: 4.4000001
-          SuspensionDamping: 2.29999995
           SuspensionDirection:
             X: 0.0
             Y: -1.0
             Z: 0.0
-          SuspensionRestLength: 0.200000003
-          SuspensionStiffness: 20.0
-          WheelRadius: 0.5
+          Radius: 0.5
+          Width: 0.25
+          UseModelBounds: true
+          MaxSteerAngle: 0.0
+          MaxBrakeTorque: 1000
+          MaxHandBrakeTorque: 4000
+          SuspensionMinLength: 0
+          SuspensionMaxLength: 0.2
+          SuspensionPreloadLength: 0.0
+          SuspensionSpring:
+            Mode: FrequencyAndDamping
+            FrequencyOrStiffness: 1.4235251
+            Damping: 0.7490828
+          Inertia: 1.8367347
+          AngularDamping: 0.2
+          LongitudinalFrictionScale: 1.4947027
+          LateralFrictionScale: 1.4947027
+          UpdateEntityTransform: true
       Children: []
       Id: 668b5c4d-1c82-402a-89ff-cbd7fa9979b0
     - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -388,32 +372,31 @@ Root:
           IsEnabled: true
           OrderBias: 0
           RenderFlags: CastShadows
-        - !Evergine.Framework.Physics3D.PhysicWheel3D,Evergine.Framework
+        - !Evergine.Framework.Physics.VehicleWheel,Evergine.Framework
           Id: 6a6e2cab-8a74-4807-9420-521711574b78
-          FrictionSlip: 1000.0
-          IsBrakableWheel: true
-          IsDriveWheel: true
           IsEnabled: true
-          IsFrontWheel: false
-          IsSteerableWheel: false
-          MaxSuspensionForce: 6000.0
-          MaxSuspensionTravel: 5.0
-          OverrideVehicleSettings: false
-          PhysicVehicleEntityPath: null
-          RotationAxis:
-            X: 1.0
-            Y: 0.0
-            Z: 0.0
-          SearchVehicle: FromParents
-          SuspensionCompression: 4.4000001
-          SuspensionDamping: 2.29999995
           SuspensionDirection:
             X: 0.0
             Y: -1.0
             Z: 0.0
-          SuspensionRestLength: 0.200000003
-          SuspensionStiffness: 20.0
-          WheelRadius: 0.5
+          Radius: 0.5
+          Width: 0.25
+          UseModelBounds: true
+          MaxSteerAngle: 0.0
+          MaxBrakeTorque: 1000
+          MaxHandBrakeTorque: 4000
+          SuspensionMinLength: 0
+          SuspensionMaxLength: 0.2
+          SuspensionPreloadLength: 0.0
+          SuspensionSpring:
+            Mode: FrequencyAndDamping
+            FrequencyOrStiffness: 1.4235251
+            Damping: 0.7490828
+          Inertia: 1.8367347
+          AngularDamping: 0.2
+          LongitudinalFrictionScale: 1.4947027
+          LateralFrictionScale: 1.4947027
+          UpdateEntityTransform: true
       Children: []
       Id: 2620e9c2-5393-4e5e-8414-56cb7c9bc50d
     - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework

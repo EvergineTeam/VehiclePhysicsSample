@@ -2,7 +2,7 @@
 using Evergine.Common.Input.Keyboard;
 using Evergine.Framework;
 using Evergine.Framework.Graphics;
-using Evergine.Framework.Physics3D;
+using Evergine.Framework.Physics;
 using Evergine.Mathematics;
 using System;
 using System.Linq;
@@ -11,7 +11,7 @@ namespace VehiclePhysicsSample.Features.Vehicle
 {
     public class ResetDemo : Behavior
     {
-        private RigidBody3D[] bodies;
+        private RigidBody[] bodies;
         private Matrix4x4[] transforms;
 
         [BindComponent]
@@ -23,7 +23,7 @@ namespace VehiclePhysicsSample.Features.Vehicle
         {
             base.Start();
 
-            this.bodies = this.Managers.EntityManager.FindComponentsOfType<RigidBody3D>().Where(b => b.PhysicBodyType == RigidBodyType3D.Dynamic).ToArray();
+            this.bodies = this.Managers.EntityManager.FindComponentsOfType<RigidBody>().Where(b => !b.IsKinematic).ToArray();
             this.transforms = this.bodies.Select(b => b.Transform3D.WorldTransform).ToArray();
         }
 
@@ -48,7 +48,7 @@ namespace VehiclePhysicsSample.Features.Vehicle
             {
                 var b = this.bodies[i];
                 var t = this.transforms[i];
-                b.ResetTransform(t.Translation, t.Orientation, default);
+                b.Teleport(t.Translation, t.Orientation);
                 b.LinearVelocity = default;
                 b.AngularVelocity = default;
             }

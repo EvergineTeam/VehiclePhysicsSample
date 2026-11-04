@@ -41,7 +41,6 @@ Items:
           B: 0.759774029
           G: 0.863286853
           R: 0.939455926
-        ShadowBias: 0.00499999989
         ShadowDistance: 30.0
         ShadowOpacity: 1.0
         SplitDistance:
@@ -307,60 +306,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 1aa0f2f4-c403-48f3-991a-bd4b322e6b58
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: dc3122c0-52b6-414f-b356-c79b8b73e528
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
     Children: []
     Id: 125ad903-1c52-47ee-813b-edbcbfc13922
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -408,60 +382,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: affdc25d-ed67-49fa-9cc4-e608866b0d23
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 86766352-5bef-4e27-81cf-a1cebb36bee6
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 14f303cb-f672-4efa-b03e-635e1a9c2d0c
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -509,60 +458,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: faf88191-085b-476d-8b41-e3123b2f6fc0
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: b40b8663-c1b2-4a34-b624-37064de94b45
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 9272c24f-5baa-4727-8ab0-f3801a8557dc
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -610,60 +534,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 8ab8bf19-a3ce-4d3d-b74c-32950d23023d
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: e686745f-fba7-4d78-a22f-cd60da750bdd
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 02e71c61-2862-4ce0-a1fc-65f8714ab699
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -711,60 +610,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 7c36cf20-2e14-4726-974f-80b244315a54
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 4daf910f-2f96-4774-ad8f-2189a012cfb6
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
       - !Evergine.Framework.ErrorComponent,Evergine.Framework
         Id: 8917a067-20c3-4d27-ab16-064aa180341a
         IsEnabled: true
@@ -827,60 +701,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: acf08a95-73b4-40b7-abc2-a63cfcebea61
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: e23ef615-01e6-4734-b282-4e750a879013
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 98366980-4d25-49f3-af11-1a9fe8f16f86
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -928,60 +777,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: fee4f5a7-2391-4854-84da-05ae580f6e6c
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: e3e177d7-538e-49fd-95e4-bd6edf133ed5
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: ef079de7-988e-45d7-b734-7307fd80132c
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1029,60 +853,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 2ecfa2e6-88d9-437a-8c0b-6e6aebeb02dc
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 3b7e5208-322e-427d-a684-04d6b2c95e1b
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: c029cec7-6bed-4eba-b041-d01d6d13d480
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1130,60 +929,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 043e7f90-da00-4c4c-aa5c-d21db298cf64
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 8f4ef2a8-5150-42a1-a75a-de28861607bc
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 7bf4d4dd-f949-4535-892e-02447907896a
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1231,60 +1005,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 01c010e6-1554-4f19-a764-97035522412e
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: af207a3b-f259-433f-95ca-f2b9ec39cbd0
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 99a443a2-6ca2-4095-a14c-e9dd2eb264ca
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1332,60 +1081,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 11d5a86b-9297-4030-b021-6733f4b1fbca
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 88afb89f-c610-4847-ba58-6667afc863a2
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 670364c7-52a0-41d8-906e-014c3b9f982f
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1433,60 +1157,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: c2ea9446-781f-4015-be63-6aa93f50cc64
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 9ff47def-af00-401e-82fe-54d2ecf803a5
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: dff93b53-9238-4ff0-8b9d-52e3ecc64d5a
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1534,60 +1233,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: ff61d2b3-ed1a-480f-ae50-4f642101780d
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 7a65bad2-0c52-46b3-a9f8-26d49edeb37c
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 5a777eb4-4040-4567-a613-eefe88488a8e
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1635,60 +1309,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 96579be3-ccd6-493b-98a2-a0558c901f1e
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 5c061f09-3bdd-4be1-82ae-7875c6102e01
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 7beca870-ed5f-4f14-9e34-40d747ad90fc
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1736,60 +1385,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 34815371-b4ad-4838-b521-9c844a51e60e
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 0.200000003
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 4ff80c40-218d-462b-b142-9d88d61c20a9
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: 2845569b-71a1-4c9a-9877-88d7ce087241
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1860,60 +1484,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 840a6572-d7a4-49cb-acd2-81538cd50f9c
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: f9ff10ba-f02b-4943-a211-bc78c9c465ce
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 4ea5e6d6-1420-4392-a942-f02873059975
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -1961,60 +1560,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: fc42b2ff-41e8-43e0-8730-86ec36dc59fe
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: a82444be-2686-4a78-a471-fed97547c63e
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 5c07629e-90c5-467c-89bb-acb22380914f
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2062,60 +1636,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: b3d64c3c-29cc-4802-8ece-a8c6e41f303b
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 71aa1887-5ea4-414f-a0a0-4593729985cd
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: e29f4ef8-d15b-474c-b0eb-fce58571e61a
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2163,60 +1712,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 2cec88fa-95f8-42a2-8499-415d4d105571
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: d61de1f1-5852-473d-9596-0be7f44ee8bd
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: bacd6100-9ec8-460a-9a4f-ac1268e5018b
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2264,60 +1788,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 006e916c-fb56-457d-ae2b-f50412bdff88
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 6554a59e-bc06-48ac-bb1c-6cde4883f2dd
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: adc6cf22-f382-4a32-8ccb-57a7272ab37c
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2365,60 +1864,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: a257538e-9baf-4c3a-944a-3a9cad3bac13
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 97d10ad1-0993-402b-ba2b-2f8a8c810943
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 319898ef-d082-49fd-96fd-e8d885a3b44e
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2466,60 +1940,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: bdfed576-9eff-44b9-98b7-c4f95a63e181
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 699ca159-abf6-41d2-aad2-9afb3d4af111
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: b5a717c9-a9ac-4700-9848-4d8a2fbda0fc
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2567,60 +2016,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 4b70063c-ff13-431e-b9da-0d5a121763ff
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 247643b8-b457-4b08-a2d7-764418f279a3
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 117fd96e-6793-4631-8465-6c5c1ddc0010
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2668,60 +2092,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 2d74ba04-2c3d-4554-a048-5c8b99f88054
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: cba15f9d-c0ce-4064-b460-27eca363cce8
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 8d897210-630b-4d11-a74c-663807dea0c6
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2769,60 +2168,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: c90004b6-0fb5-47e0-97ab-ed4dac68c6c0
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: f002b9eb-1a41-4c78-ba93-6e036b179158
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: f6b4d4da-f2df-459a-9e45-d40c34bf3b0a
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2870,60 +2244,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: b164c8ad-d033-4ce7-95aa-88dba41224f6
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 260127c2-c1c8-471d-850d-7a57fcef9d61
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 9cd0b41c-e193-4bad-9926-5d51e50d638c
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -2971,60 +2320,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: fb0bfa24-7290-4f9e-9b69-134e5f486c71
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: f2e0155e-4d09-4130-a34f-672714f361fc
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 74399186-3cc2-4104-b1a7-6d07a30a6230
     Id: 64153fb2-9d60-4e2a-ae60-8e6e3152c99e
@@ -3096,60 +2420,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 344467bc-9ff7-4881-a6a7-6c11e8b09010
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: d98488df-0eb6-4e14-a72d-4f3fde4772fb
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 94dfe189-7641-4e71-ba72-77c69010161a
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -3197,60 +2496,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: fe2e0b95-fb19-42b3-b530-61bb7a4211b5
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: df7b085d-1913-4db2-bdd1-47468db603ce
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: e0afca75-802a-48d6-82d1-73b42cbcc011
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -3298,60 +2572,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 74517318-5d5f-4021-ac18-f77c00adbfe6
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: ba9d0d7d-1d4b-43ed-bd40-f920cdc08535
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: c92f1f2c-acf5-43bf-9139-919428677e35
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -3399,60 +2648,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 0b4dc748-9471-46da-9abb-acc390d8aa66
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 15301acb-ac72-46c0-8c79-b75602d8189a
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 3f0ab04b-bfdb-4b5c-919c-598b102b4c5d
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -3500,60 +2724,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 0a58c77b-9197-4587-a81f-0c1d507b68b0
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 0b4e58e0-7741-4929-a8c1-b703e34b852e
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: f29eaecb-07d5-47e4-b969-a8b8562c734a
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -3601,60 +2800,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: cd15aa74-a85d-4ada-8470-46a1a8337028
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: f5f26749-e4b9-45f9-99d3-05be35dd6cd5
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 22b6216e-bbe9-41be-bbac-c48c2bf84ae6
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -3702,60 +2876,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: eca0e62e-f56a-43de-8255-ee67553434b3
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: fa3e6aaa-057c-4262-b39a-1b20b02e1737
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 5d56a6ba-5e9e-43ec-8086-b99e34586be4
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -3803,60 +2952,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 7615d21d-8c3f-49e2-883d-10e9bfc2e565
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 424eef46-c4cf-41b2-9377-a78101d3b8b5
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 946d7594-665e-47c1-a3ef-382250e52e98
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -3904,60 +3028,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 1b18e7ac-b4ac-4b46-a9bf-8837dd798ea9
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 72a4bb88-912e-444c-85c1-32d7b2ffd443
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: b625d520-3e1a-41e2-80c0-28705934ab83
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -4005,60 +3104,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 385c6289-0f68-4014-bb79-06dcc08f5082
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 8424151a-e726-411a-864b-6a36818e63b3
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: cfe1d9fc-cb5d-4a75-a43c-bb7d1179d2fa
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -4106,60 +3180,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 82c88c7e-50b9-4bc8-96a0-a8a9b370b5d3
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 08f2bec1-e5fd-485b-a279-99ee89dad6b8
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 2f0f2390-43ce-4de1-96f3-6685d2487989
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -4207,60 +3256,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: e5085615-93bb-4465-831f-14a3133204cc
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 406f0ca3-8a1d-4363-b41a-23ea65406aaf
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 6d0bbf9c-1760-497b-bf4b-2d4768ae662f
     Id: 38aeb9ab-b403-4680-878d-d11e1f4dbc9a
@@ -4332,60 +3356,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 45050e8b-99b1-4a1f-a800-a2b96ebea9cb
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: e6168fd8-ba7a-4f83-81d7-467b92f88ff9
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 1afa49c2-0ade-41c8-85e3-7743a27e608f
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -4433,60 +3432,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 23e6b138-6569-4f76-bf45-81b95fb70f47
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 78fda0f6-a47e-46c3-b33c-0f0fabe2ecb7
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: a5cbd538-fef2-40ce-aeeb-751bf8a88b98
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -4534,60 +3508,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: eb48b987-c60d-49e3-ace4-22c7b05bee36
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: d304b1e1-6800-49fc-8ba0-bc6458addffe
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: f97e33d7-3487-49d2-aa82-e6a440352326
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -4635,60 +3584,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 6838bac8-3840-4a15-a4a4-662e0dcddf10
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: a0d2672c-73b0-4839-b4e2-6f488103e330
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 2544c2c2-ff1b-40a0-aeda-c8fc7e490b52
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -4736,60 +3660,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 5aef6289-f7ec-4f7a-bd28-8e111ec60e5d
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: d9b508cd-21fa-41d5-b1c7-b9464489c4ed
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 707581b0-0c3e-476c-a786-ef8530437f22
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -4837,60 +3736,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 7a749952-a373-409e-a291-1d2905987273
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 9a9f2d54-6a73-4412-80f9-6177219ffcb1
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: fdcb9ff2-da03-4a54-b1b5-9625941e1ed5
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -4938,60 +3812,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: af20f9f3-2d54-45bd-94b6-9929870cbd08
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: deb63399-e464-4bad-b292-008289ee599a
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 60e03506-6796-449a-a5e9-f98e3201f75d
     Id: a2037125-8784-4fee-b036-7a871b792e61
@@ -5063,60 +3912,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 35d80dda-97b0-4d1b-8c3c-cac828b654b7
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 1e85e682-28c1-4429-9295-b90e67d7f43e
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: f1ec689f-da8f-4fbd-97cb-a600855b3d76
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -5164,60 +3988,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 86c839ac-0306-434c-b30a-9cb01dfc87b5
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 0d03c607-2e3b-4299-87be-0d0477508bc6
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 59c36e87-fb0b-4dc4-aef7-c9cc894379b4
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -5265,60 +4064,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: f57ea478-fe73-492c-a9ec-114260008ef2
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 28ae8881-5666-42b8-9a47-f669fd354cf2
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: eb4ae68d-f7cc-4b37-b6e4-9edb2dd84670
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -5366,60 +4140,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 0214cb27-276e-4c25-ad62-27ecf2cc9163
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 3d00431f-e182-4098-bae5-2d3fad1827cf
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 3babb9f6-7b35-4f43-ab2c-f16d66842997
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -5467,60 +4216,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: f5075ccf-abae-423c-9c3e-fae7aaaf9451
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 2a2459ae-49fb-4b6d-81b8-35ce40ff4fbd
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 31d622ea-d141-47b0-93e3-5b43f08eb1ac
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -5568,60 +4292,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 49772635-f1f7-4019-a140-a2afb1fb0cfa
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 580e35ea-f357-4e25-9072-262b211e374e
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 3a3c49c5-2ac1-47be-afce-51d9a21c3b04
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -5669,60 +4368,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: b3f9e660-6742-45b2-a875-b1dbe79c0a88
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: a8974002-8888-439c-a544-28d5508380c1
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 3e668a91-c20e-462d-94e4-25b8cd3c4f85
     Id: 4d9893ca-02f6-481b-b91d-a2f8d461be0e
@@ -5794,60 +4468,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: c04a5a50-44b5-4951-9379-6b8fd49d27c2
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.300000012
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 19f75d21-b369-40f1-aea0-e0d44f12aa25
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: ad2c8598-ffdd-43ca-9892-5a2fb42839f0
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -5895,60 +4544,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 3334edfa-3a52-4789-a06c-f557569aa53d
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.300000012
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 18219453-fafa-4a83-adbe-a9b3cdf4ccd6
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 24db3afb-a1c3-4d36-a2bd-848f4b840ca7
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -5996,60 +4620,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 933a974f-1baa-4512-a1de-b7a41e438fd5
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.300000012
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 28edbfd4-d7a7-4fb7-817d-13937fbc4cf3
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.0
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: ddf0c11d-6695-4cc7-9944-19fbc53f4381
     Id: 4f3a7530-44a9-4e10-9f84-52f4e88575ee
@@ -6121,60 +4720,35 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: a3b4bf2b-baad-4329-9426-b6be72ce3b6d
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Kinematic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: true
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 7ba9eecf-1b7b-4297-af45-4990215ebdc4
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.20000005
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
         Children: []
         Id: 7f9a0835-cb42-43c4-af95-6b65439b7181
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -6222,95 +4796,62 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: cd9adaab-fd67-4ad8-98cb-714e521b6661
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 91c6b5f7-d393-4983-b10a-d7306f24eddb
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.20000005
-          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
+          - !Evergine.Framework.Physics.HingeConstraint,Evergine.Framework
             Id: ec0965a2-c8e8-4ca8-8a48-6fe7c8dbeb42
             Anchor:
               X: 0.0
               Y: 0.0
               Z: 0.300000012
-            AutoConfigureConnected: true
+            AutoConfigureConnectedAnchor: true
             Axis:
               X: 1.0
               Y: 0.0
               Z: 0.0
-            BreakPoint: 0.0
             CollideConnected: false
             ConnectedAnchor:
               X: 0.0
               Y: 0.0
               Z: -0.816241443
-            ConnectedAxis:
-              X: 1.0
-              Y: 0.0
-              Z: 0.0
-            ConnectedEntityPath: Bridge.link
-            DebugDrawSize: 0.300000012
             IsEnabled: true
-            LimitBiasFactor: 0.800000012
-            LimitRelaxationFactor: 0.25
-            LimitSoftness: 0.299999982
-            LowerAngularLimit: 0.0
-            MotorTargetImpulse: 0.0
-            MotorTargetVelocity: 0.0
-            NeedsFeedback: false
-            OverrideNumSolverIterations: -1
-            UpperAngularLimit: 0.0
-            UseAngularLimit: false
-            UseMotor: true
+            TargetAngularVelocity: 0.0
+            SolverVelocityIterationsOverride: 0
+            IsBreakable: false
+            NormalAxis:
+              X: 0
+              Y: 1
+              Z: 0
+            MotorMode: Off
+            MaxMotorTorque: 0
+            ConnectedEntity: 7f9a0835-cb42-43c4-af95-6b65439b7181
         Children: []
         Id: 2373ba70-2e74-4c15-b548-b21f2ef84a06
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -6358,95 +4899,62 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 1fc87f32-0811-4196-9509-fa2142bdfbbf
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 44f6a033-3b6d-4697-8351-74fd85f7e7c2
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.20000005
-          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
+          - !Evergine.Framework.Physics.HingeConstraint,Evergine.Framework
             Id: 15470bd1-f62c-4df2-9a0a-cb282a100ce5
             Anchor:
               X: 0.0
               Y: 0.0
               Z: 0.300000012
-            AutoConfigureConnected: true
+            AutoConfigureConnectedAnchor: true
             Axis:
               X: 1.0
               Y: 0.0
               Z: 0.0
-            BreakPoint: 0.0
             CollideConnected: false
             ConnectedAnchor:
               X: 0.0
               Y: 0.0
               Z: -0.816241443
-            ConnectedAxis:
-              X: 1.0
-              Y: 0.0
-              Z: 0.0
-            ConnectedEntityPath: Bridge.link1
-            DebugDrawSize: 0.300000012
             IsEnabled: true
-            LimitBiasFactor: 0.800000012
-            LimitRelaxationFactor: 0.25
-            LimitSoftness: 0.299999982
-            LowerAngularLimit: 0.0
-            MotorTargetImpulse: 0.0
-            MotorTargetVelocity: 0.0
-            NeedsFeedback: false
-            OverrideNumSolverIterations: -1
-            UpperAngularLimit: 0.0
-            UseAngularLimit: false
-            UseMotor: false
+            TargetAngularVelocity: 0.0
+            SolverVelocityIterationsOverride: 0
+            IsBreakable: false
+            NormalAxis:
+              X: 0
+              Y: 1
+              Z: 0
+            MotorMode: Off
+            MaxMotorTorque: 0
+            ConnectedEntity: 2373ba70-2e74-4c15-b548-b21f2ef84a06
         Children: []
         Id: b3d4a8aa-502e-453f-acee-a6685e2dbc15
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -6494,95 +5002,62 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 452f12c8-7c32-431d-bf3f-51d2421d6edf
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 1f03f2c1-4bf7-4b21-8afd-986856685c97
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.20000005
-          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
+          - !Evergine.Framework.Physics.HingeConstraint,Evergine.Framework
             Id: 8356f547-2ef8-446a-adc5-2148c0d6294e
             Anchor:
               X: 0.0
               Y: 0.0
               Z: 0.300000012
-            AutoConfigureConnected: true
+            AutoConfigureConnectedAnchor: true
             Axis:
               X: 1.0
               Y: 0.0
               Z: 0.0
-            BreakPoint: 0.0
             CollideConnected: false
             ConnectedAnchor:
               X: 0.0
               Y: 0.0
               Z: -0.816258609
-            ConnectedAxis:
-              X: 1.0
-              Y: 0.0
-              Z: 0.0
-            ConnectedEntityPath: Bridge.link2
-            DebugDrawSize: 0.300000012
             IsEnabled: true
-            LimitBiasFactor: 0.800000012
-            LimitRelaxationFactor: 0.25
-            LimitSoftness: 0.299999982
-            LowerAngularLimit: 0.0
-            MotorTargetImpulse: 0.0
-            MotorTargetVelocity: 0.0
-            NeedsFeedback: false
-            OverrideNumSolverIterations: -1
-            UpperAngularLimit: 0.0
-            UseAngularLimit: false
-            UseMotor: false
+            TargetAngularVelocity: 0.0
+            SolverVelocityIterationsOverride: 0
+            IsBreakable: false
+            NormalAxis:
+              X: 0
+              Y: 1
+              Z: 0
+            MotorMode: Off
+            MaxMotorTorque: 0
+            ConnectedEntity: b3d4a8aa-502e-453f-acee-a6685e2dbc15
         Children: []
         Id: 4904a67d-aaef-4fa7-a531-8a79f3d3fdc8
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -6630,95 +5105,62 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 7d75a0b2-f83b-4d8b-98b4-647c379376d0
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: ca4f89c7-0824-4dbb-9cae-01ac07595b39
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.20000005
-          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
+          - !Evergine.Framework.Physics.HingeConstraint,Evergine.Framework
             Id: c089d49c-33d6-417a-a861-fb6671456a4f
             Anchor:
               X: 0.0
               Y: 0.0
               Z: 0.300000012
-            AutoConfigureConnected: true
+            AutoConfigureConnectedAnchor: true
             Axis:
               X: 1.0
               Y: 0.0
               Z: 0.0
-            BreakPoint: 0.0
             CollideConnected: false
             ConnectedAnchor:
               X: 0.0
               Y: 0.0
               Z: -0.816340625
-            ConnectedAxis:
-              X: 1.0
-              Y: 0.0
-              Z: 0.0
-            ConnectedEntityPath: Bridge.link3
-            DebugDrawSize: 0.300000012
             IsEnabled: true
-            LimitBiasFactor: 0.800000012
-            LimitRelaxationFactor: 0.25
-            LimitSoftness: 0.299999982
-            LowerAngularLimit: 0.0
-            MotorTargetImpulse: 0.0
-            MotorTargetVelocity: 0.0
-            NeedsFeedback: false
-            OverrideNumSolverIterations: -1
-            UpperAngularLimit: 0.0
-            UseAngularLimit: false
-            UseMotor: false
+            TargetAngularVelocity: 0.0
+            SolverVelocityIterationsOverride: 0
+            IsBreakable: false
+            NormalAxis:
+              X: 0
+              Y: 1
+              Z: 0
+            MotorMode: Off
+            MaxMotorTorque: 0
+            ConnectedEntity: 4904a67d-aaef-4fa7-a531-8a79f3d3fdc8
         Children: []
         Id: e9434175-eefb-4f54-96ba-51801a55c1b9
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -6766,95 +5208,62 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 1068a61b-3329-4061-8c4b-ed894c445ed8
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: -9.80000019
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Dynamic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: false
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: 80d7f35c-7887-4de2-9be2-37345c6577bd
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.20000005
-          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
+          - !Evergine.Framework.Physics.HingeConstraint,Evergine.Framework
             Id: b9cf39c2-cc24-4519-8772-84b39539c5b1
             Anchor:
               X: 0.0
               Y: 0.0
               Z: 0.300000012
-            AutoConfigureConnected: true
+            AutoConfigureConnectedAnchor: true
             Axis:
               X: 1.0
               Y: 0.0
               Z: 0.0
-            BreakPoint: 0.0
             CollideConnected: false
             ConnectedAnchor:
               X: 0.0
               Y: 0.0
               Z: -0.816241443
-            ConnectedAxis:
-              X: 1.0
-              Y: 0.0
-              Z: 0.0
-            ConnectedEntityPath: Bridge.link4
-            DebugDrawSize: 0.300000012
             IsEnabled: true
-            LimitBiasFactor: 0.800000012
-            LimitRelaxationFactor: 0.25
-            LimitSoftness: 0.299999982
-            LowerAngularLimit: 0.0
-            MotorTargetImpulse: 0.0
-            MotorTargetVelocity: 0.0
-            NeedsFeedback: false
-            OverrideNumSolverIterations: -1
-            UpperAngularLimit: 0.0
-            UseAngularLimit: false
-            UseMotor: false
+            TargetAngularVelocity: 0.0
+            SolverVelocityIterationsOverride: 0
+            IsBreakable: false
+            NormalAxis:
+              X: 0
+              Y: 1
+              Z: 0
+            MotorMode: Off
+            MaxMotorTorque: 0
+            ConnectedEntity: e9434175-eefb-4f54-96ba-51801a55c1b9
         Children: []
         Id: 505c150c-d8f1-467a-a628-0d06362f0545
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -6902,95 +5311,62 @@ Items:
             IsEnabled: true
             OrderBias: 0
             RenderFlags: CastShadows
-          - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+          - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
             Id: 33a8c566-6b70-4522-8f98-a322566dacfa
             AngularDamping: 0.0
-            AngularFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            AngularVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            CcdMotionThreshold: 0.0
-            CcdSweptSphereRadius: 0.200000003
-            CollisionCategories: Cat1
+            CollisionCategory: Cat1
             Friction: 0.5
-            Gravity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
             IsEnabled: true
             IsSensor: false
             LinearDamping: 0.0
-            LinearFactor:
-              X: 1.0
-              Y: 1.0
-              Z: 1.0
-            LinearVelocity:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
-            MaskBits: All
             Mass: 0.200000003
-            OverrideGravity: false
-            PhysicBodyType: Kinematic
             Restitution: 0.0
-            RollingFriction: 0.0
-            UpdateOrder: 0.5
-          - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+            IsKinematic: true
+            AllowedDegreesOfFreedom: All
+          - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
             Id: f98c5f1a-aef4-4c4b-99b6-fc39faee2c1b
             IsEnabled: true
-            Margin: 0.0399999991
             Offset:
               X: 0.0
               Y: 0.0
               Z: 0.0
-            OrientationOffset:
-              W: 1.0
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+            RotationOffset:
+              X: 0
+              Y: 0
+              Z: 0
             Size:
               X: 1.0
               Y: 1.0
               Z: 1.20000005
-          - !Evergine.Framework.Physics3D.HingeJoint3D,Evergine.Framework
+            UseModelBounds: true
+            ConvexRadius: 0.0399999991
+          - !Evergine.Framework.Physics.HingeConstraint,Evergine.Framework
             Id: 90d6a5e0-96ff-446f-8114-7a3c19539669
             Anchor:
               X: 0.0
               Y: 0.0
               Z: 0.300000012
-            AutoConfigureConnected: true
+            AutoConfigureConnectedAnchor: true
             Axis:
               X: 1.0
               Y: 0.0
               Z: 0.0
-            BreakPoint: 0.0
             CollideConnected: false
             ConnectedAnchor:
               X: 0.0
               Y: 0.0
               Z: -0.816245258
-            ConnectedAxis:
-              X: 1.0
-              Y: 0.0
-              Z: 0.0
-            ConnectedEntityPath: Bridge.link5
-            DebugDrawSize: 0.300000012
             IsEnabled: true
-            LimitBiasFactor: 0.800000012
-            LimitRelaxationFactor: 0.25
-            LimitSoftness: 0.299999982
-            LowerAngularLimit: 0.0
-            MotorTargetImpulse: 0.0
-            MotorTargetVelocity: 0.0
-            NeedsFeedback: false
-            OverrideNumSolverIterations: -1
-            UpperAngularLimit: 0.0
-            UseAngularLimit: false
-            UseMotor: false
+            TargetAngularVelocity: 0.0
+            SolverVelocityIterationsOverride: 0
+            IsBreakable: false
+            NormalAxis:
+              X: 0
+              Y: 1
+              Z: 0
+            MotorMode: Off
+            MaxMotorTorque: 0
+            ConnectedEntity: 505c150c-d8f1-467a-a628-0d06362f0545
         Children: []
         Id: a9291762-9ab3-44b0-92b6-f821718c8697
     Id: e01d609d-11d9-454d-9d9a-82df879acedf
@@ -7154,60 +5530,35 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: be66b676-74b2-4239-aa9b-8f14b8687ad5
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 1.0
-        OverrideGravity: false
-        PhysicBodyType: Kinematic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: true
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 04c7d3c1-d6ba-418a-9154-ea9ddf4dbef2
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
     Children: []
     Id: cb27817e-22d7-44b1-8235-7e3b2c553a5d
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -7255,78 +5606,51 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 0e16b53c-d1e9-4d03-91ad-63fd33ea707a
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: -9.80000019
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 1.0
-        OverrideGravity: false
-        PhysicBodyType: Dynamic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: false
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: f22c7cc6-2592-4ae2-aa22-353715af5097
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !Evergine.Framework.Physics3D.PointToPointJoint3D,Evergine.Framework
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
+      - !Evergine.Framework.Physics.PointConstraint,Evergine.Framework
         Id: ccecfcac-cf4a-47ac-95bc-425be8368a57
         Anchor:
           X: 0.0
           Y: 0.300000012
           Z: 0.0
-        AutoConfigureConnected: true
-        BreakPoint: 0.0
+        AutoConfigureConnectedAnchor: true
         CollideConnected: false
         ConnectedAnchor:
           X: 0.0
           Y: -0.773605287
           Z: 0.0
-        ConnectedEntityPath: point1
-        DebugDrawSize: 0.300000012
         IsEnabled: true
-        NeedsFeedback: false
-        OverrideNumSolverIterations: -1
+        SolverVelocityIterationsOverride: 0
+        IsBreakable: false
+        ConnectedEntity: cb27817e-22d7-44b1-8235-7e3b2c553a5d
     Children: []
     Id: 52142149-e23b-433c-879a-c8496884ee5b
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -7374,78 +5698,51 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 41ba9ca0-c544-4638-bac6-177a9c37cd85
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: -9.80000019
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 1.0
-        OverrideGravity: false
-        PhysicBodyType: Dynamic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: false
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 246ea07e-2991-4750-a065-e3c042ced933
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !Evergine.Framework.Physics3D.PointToPointJoint3D,Evergine.Framework
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
+      - !Evergine.Framework.Physics.PointConstraint,Evergine.Framework
         Id: 772c6234-fa9b-4069-9a9e-f88f9585ba08
         Anchor:
           X: 0.0
           Y: 0.300000012
           Z: 0.0
-        AutoConfigureConnected: true
-        BreakPoint: 0.0
+        AutoConfigureConnectedAnchor: true
         CollideConnected: false
         ConnectedAnchor:
           X: 0.0
           Y: -0.624187648
           Z: 0.0
-        ConnectedEntityPath: point2
-        DebugDrawSize: 0.300000012
         IsEnabled: true
-        NeedsFeedback: false
-        OverrideNumSolverIterations: -1
+        SolverVelocityIterationsOverride: 0
+        IsBreakable: false
+        ConnectedEntity: 52142149-e23b-433c-879a-c8496884ee5b
     Children: []
     Id: 85f7d76d-47d2-481c-a900-9cfcdf86eef0
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -7493,78 +5790,51 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 2adeb330-3f6f-4464-99d1-534dbdd0e500
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: -9.80000019
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 1.0
-        OverrideGravity: false
-        PhysicBodyType: Dynamic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: false
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: eae5f43c-d414-4f14-9ff1-f4511b4e7915
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !Evergine.Framework.Physics3D.PointToPointJoint3D,Evergine.Framework
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
+      - !Evergine.Framework.Physics.PointConstraint,Evergine.Framework
         Id: 174476d6-082b-4582-803b-b6d964f2fee3
         Anchor:
           X: 0.0
           Y: 0.300000012
           Z: 0.0
-        AutoConfigureConnected: true
-        BreakPoint: 0.0
+        AutoConfigureConnectedAnchor: true
         CollideConnected: false
         ConnectedAnchor:
           X: 0.0
           Y: -0.485939443
           Z: 0.0
-        ConnectedEntityPath: point3
-        DebugDrawSize: 0.300000012
         IsEnabled: true
-        NeedsFeedback: false
-        OverrideNumSolverIterations: -1
+        SolverVelocityIterationsOverride: 0
+        IsBreakable: false
+        ConnectedEntity: 85f7d76d-47d2-481c-a900-9cfcdf86eef0
     Children: []
     Id: 3d83fe1d-af97-4416-9e4c-aeba377aa9da
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
@@ -7612,78 +5882,51 @@ Items:
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !Evergine.Framework.Physics3D.RigidBody3D,Evergine.Framework
+      - !Evergine.Framework.Physics.RigidBody,Evergine.Framework
         Id: 35e3885f-125d-49d7-9d11-24cf92e36751
         AngularDamping: 0.0
-        AngularFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        AngularVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        CcdMotionThreshold: 0.0
-        CcdSweptSphereRadius: 0.200000003
-        CollisionCategories: Cat1
+        CollisionCategory: Cat1
         Friction: 0.5
-        Gravity:
-          X: 0.0
-          Y: -9.80000019
-          Z: 0.0
         IsEnabled: true
         IsSensor: false
         LinearDamping: 0.0
-        LinearFactor:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-        LinearVelocity:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        MaskBits: All
         Mass: 1.0
-        OverrideGravity: false
-        PhysicBodyType: Dynamic
         Restitution: 0.0
-        RollingFriction: 0.0
-        UpdateOrder: 0.5
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        IsKinematic: false
+        AllowedDegreesOfFreedom: All
+      - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
         Id: 2df439e7-6aaa-42d9-b9fc-7f8c28ec9629
         IsEnabled: true
-        Margin: 0.0399999991
         Offset:
           X: 0.0
           Y: 0.0
           Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
+        RotationOffset:
+          X: 0
+          Y: 0
+          Z: 0
         Size:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !Evergine.Framework.Physics3D.PointToPointJoint3D,Evergine.Framework
+        UseModelBounds: true
+        ConvexRadius: 0.0399999991
+      - !Evergine.Framework.Physics.PointConstraint,Evergine.Framework
         Id: 3d65666f-0386-4c91-ae10-f7dadbae4661
         Anchor:
           X: 0.0
           Y: 0.300000012
           Z: 0.0
-        AutoConfigureConnected: true
-        BreakPoint: 0.0
+        AutoConfigureConnectedAnchor: true
         CollideConnected: false
         ConnectedAnchor:
           X: 0.0
           Y: -0.344803989
           Z: 0.0
         ConnectedEntityPath: point4
-        DebugDrawSize: 0.300000012
         IsEnabled: true
-        NeedsFeedback: false
-        OverrideNumSolverIterations: -1
+        SolverVelocityIterationsOverride: 0
+        IsBreakable: false
     Children: []
     Id: d4e77ec6-ff44-49c8-9c52-b8d40d9d1c17
 Managers:

@@ -5,14 +5,14 @@ using Evergine.Framework.Graphics;
 using Evergine.Mathematics;
 using System;
 using System.Linq;
-using Evergine.Framework.Physics3D;
+using Evergine.Framework.Physics;
 
 namespace VehiclePhysicsSample.Vehicle
 {
     public class CarController : Behavior
     {
         [BindComponent]
-        private PhysicVehicle3D vehicle = null;
+        private WheeledVehicleController vehicle = null;
 
         [BindComponent(source: BindComponentSource.ChildrenSkipOwner, tag: "Steering", isRequired: false)]
         private Transform3D steeringWheel = null;
@@ -79,9 +79,7 @@ namespace VehiclePhysicsSample.Vehicle
             this.currentSteering = MathHelper.SmoothDamp(this.currentSteering, steeringRotation, ref this.steeringVelocity, 0.5f, (float)gameTime.TotalSeconds);
 
             ////engineForce = MaxForce;
-            this.vehicle.ApplyEngineForce(engineForce);
-            this.vehicle.SetSteeringValue(this.currentSteering);
-            this.vehicle.SetBrake(brake);
+            this.vehicle.SetDriverInput(global::System.Math.Clamp((float)(engineForce), -1f, 1f), global::System.Math.Clamp((float)(this.currentSteering) / 0.5235988f, -1f, 1f), global::System.Math.Clamp((float)(brake), 0f, 1f), 0f);
 
             if (this.steeringWheel != null)
             {
