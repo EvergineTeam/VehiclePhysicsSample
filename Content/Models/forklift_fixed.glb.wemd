@@ -1,0 +1,178 @@
+!Evergine.Assets.Exporters.ModelMetaFile,Evergine.Assets
+Id: 3d7348cc-122a-4381-98f1-9769edb6c549
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: 701c9156-b359-42d9-901d-ab5d35a910e0
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: 1acb9820-9476-4ad5-8a45-ea5ad702ea96
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: opaque__metal__painted_unique_forklift_c.002
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.003
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.010
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.006
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__paper__unique_forklift_c.001
+        Item2: 4b40c0e7-c65f-46ba-bd59-585a33e0b3c7
+      - Item1: opaque__rubber__unique_forklift_c.003
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.009
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.005
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.008
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.004
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__rubber__unique_forklift_c.002
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.003
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.007
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__rubber__unique_forklift_c.001
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__rubber__unique_forklift_c.004
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__red_unique_forklift_c.001
+        Item2: d82b1c52-aef8-407a-b89f-a0ef3ca62335
+      - Item1: opaque__rubber__unique_forklift_c.006
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.011
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__rubber__unique_forklift_c.007
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.012
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__rubber__unique_forklift_c.008
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.013
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__rubber__unique_forklift_c.009
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.014
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__red_unique_forklift_c
+        Item2: d82b1c52-aef8-407a-b89f-a0ef3ca62335
+      - Item1: opaque__metal__painted_unique_forklift_c
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__paper__unique_forklift_c
+        Item2: 4b40c0e7-c65f-46ba-bd59-585a33e0b3c7
+      - Item1: opaque__rubber__unique_forklift_c
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__emissive_unique_forklift_c
+        Item2: 9bc3de32-6906-4086-b472-33a3856f8f62
+      - Item1: opaque__glass__mirror_unique_forklift_c
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.001
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.001
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.002
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.003
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.004
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.005
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.004
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.006
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.005
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.007
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.006
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.001
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.008
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__fabric__unique_forklift_c
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.002
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.009
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__fabric__unique_forklift_c.001
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: trans__glass__clear__unique_forklift_c
+        Item2: 5df327a2-5a13-4ef3-a2e1-68ee7c72bdcf
+      - Item1: opaque__metal__painted_unique_forklift_c.011
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.010
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.012
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.011
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.007
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.012
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.013
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.013
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.008
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__fabric__unique_forklift_c.002
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.014
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.009
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.015
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__fabric__unique_forklift_c.003
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.016
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.014
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__fabric__unique_forklift_c.004
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__unique_forklift_c.010
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.017
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__plastic__unique_forklift_c.018
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__metal__painted_unique_forklift_c.015
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+      - Item1: opaque__rubber__unique_forklift_c.005
+        Item2: 7726c243-c688-4c30-87c6-09d062b53d69
+    Nodes:
+      - sm_body_c01_mesh_00_001.sm_mast_stage1_c01_mesh_00_001.sm_mast_stage2_c01_mesh_00_001.sm_mast_stage4_c01_mesh_00_001.sm_fork1_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001.sm_mast_stage1_c01_mesh_00_001.sm_mast_stage2_c01_mesh_00_001.sm_mast_stage4_c01_mesh_00_001.sm_fork2_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001.sm_mast_stage1_c01_mesh_00_001.sm_mast_stage2_c01_mesh_00_001.sm_mast_stage4_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001.sm_mast_stage1_c01_mesh_00_001.sm_mast_stage2_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001.sm_mast_stage1_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001.sm_steering_wheel_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001.sm_wheel1_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001.sm_wheel2_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001.sm_wheel3_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001.sm_wheel4_c01_mesh_00_001
+      - sm_body_c01_mesh_00_001
+SwapWindingOrder: false

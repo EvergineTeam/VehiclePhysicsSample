@@ -1,0 +1,104 @@
+!Evergine.Assets.Exporters.ModelMetaFile,Evergine.Assets
+Id: 7812fe28-532c-4eee-b262-03047d0644ea
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: e39e8df5-036b-46c0-9e36-4b23771f152a
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: 8c634fef-8188-413a-96e3-8e62f15fde7f
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: opaque__metal__painted_milk_a
+        Item2: c4167b41-e3fe-4468-873b-1dc9a630e2eb
+      - Item1: opaque__metal__rough_a
+        Item2: 2372c120-21d9-49e5-9fad-cf25beb8ae94
+      - Item1: opaque__metal__steel_a
+        Item2: 2a30445c-9f42-4ea8-aa02-52c87da2b40e
+      - Item1: opaque__metal__painted_gray_a
+        Item2: fc852aee-cb18-476c-a384-3c4b71d5e6bd
+      - Item1: opaque__metal__painted_white_a
+        Item2: db3209b7-3849-428b-a400-5c2e8841a8f4
+      - Item1: opaque__plastic__glossy_black_a
+        Item2: 61dd1869-b76e-49ad-bc39-fc88f9c9cb7e
+      - Item1: opaque__rubber__matte_black_a
+        Item2: 5e7a3d57-7ca3-4c81-b123-2ba0b5b0ba9d
+      - Item1: opaque__plastic__glossy_white_a
+        Item2: ed2931ba-6fac-4cb7-9f66-29f62ef42b26
+      - Item1: opaque__plastic__glossy_milk_a
+        Item2: 4374a568-3696-4e15-9d7b-d348a279989b
+      - Item1: opaque__metal__painted_gray_worn_a
+        Item2: aa5790bb-1a55-43e7-9e27-c0c87647f8ad
+      - Item1: opaque__metal__painted_gray_glossy_a
+        Item2: 4761a50b-300d-4117-8707-42eb446cde82
+      - Item1: opaque__metal__painted_red_a
+        Item2: f98cd6ba-2264-4093-99a5-921f6d4b8b14
+      - Item1: opaque__concrete__painted_white_a
+        Item2: b3479b2b-07b2-4188-a727-7823be652266
+      - Item1: opaque__rubber__matte_yellow_a
+        Item2: 9ebfac87-4448-42e6-948d-86031d20ea03
+      - Item1: opaque__metal__painted_rough_gray_b
+        Item2: af9c5220-877a-4ae2-a36c-af53a392edb0
+      - Item1: opaque__metal__painted_rough_gray_c
+        Item2: 3ca7192d-117f-4293-bda4-b9815216cc2c
+      - Item1: opaque__asphalt__ruberoid_raw_standard_b
+        Item2: d02df1a8-31ae-403a-be9f-787334b644ef
+      - Item1: opaque__metal__compositepanel_dark_a
+        Item2: e3c140b9-f613-48bf-b1e1-2f2c28597fa6
+      - Item1: opaque__concrete__floor_a
+        Item2: 05d27bc3-64de-4191-accd-8df8fd37863d
+      - Item1: opaque__concrete__foundation_a
+        Item2: f3987497-f9f2-41f2-8edf-4ca4adc62fe1
+      - Item1: opaque__metal__painted_blue_worn_a
+        Item2: b8c3d6bb-d3af-42a5-8dd6-618e43a37e2d
+      - Item1: opaque__metal__painted_gray_b
+        Item2: 8c330f16-cd38-4d2d-baa4-6f0cedba6dbc
+      - Item1: opaque__concrete__painted_gray_a
+        Item2: 773e1af0-491b-459d-ace3-2ad8407f8a88
+      - Item1: opaque__metal__painted_rough_white_b
+        Item2: 3fc2f7ce-01d6-42c5-a3ec-063c53a047f3
+      - Item1: opaque__vinyl__tape_a
+        Item2: 89f989cb-5165-4eed-9f72-0a95d84d158d
+      - Item1: opaque__metal__steel_b
+        Item2: 8de223b7-a7d9-4c69-b333-4c488ec67306
+      - Item1: opaque__paper__unique_decal_walllamp_a
+        Item2: edc215f5-463b-4e1e-94dc-58b05bbbc298
+      - Item1: opaque__plastic__emissive_unique_walllamp_a
+        Item2: 74c3fc3a-3520-48a7-84e3-d5d2d7cbe571
+      - Item1: opaque__paper__unique_fusebox_decal_a
+        Item2: fff24abd-9ac4-4476-9e92-c74a7f41fafb
+      - Item1: opaque__plastic__emissive_white_led_a
+        Item2: 2e9b3f07-aa30-4b32-965e-66805f09b211
+      - Item1: opaque__metal__painted_yellow_a
+        Item2: 15eb1698-8403-4541-8502-36a7ec70705e
+      - Item1: opaque__plastic__glossy_gray_a
+        Item2: a5455a8c-ec8b-4518-a254-32f970b54c53
+      - Item1: opaque__paper__black_decal_a
+        Item2: c36b79d3-eec8-4db9-8f02-a0d6eb3e474b
+      - Item1: opaque__paper__unique_phone_decal_a
+        Item2: d77be924-4c79-45ea-b88c-5db8adaade91
+      - Item1: opaque__concrete__painted_black_a
+        Item2: 2ad6cd10-1c97-41b9-bda4-45552500f062
+      - Item1: opaque__concrete__painted_yellow_a
+        Item2: 805667df-ba63-42f7-bd56-18742a48bcb9
+      - Item1: opaque__metal__painted_black_a
+        Item2: b4588a3a-734f-4f41-9990-23ae3645f0d5
+      - Item1: opaque__plastic__unique_fire_extinguisher_a
+        Item2: 08f33daf-95cb-4150-b317-91fa3d43fb13
+      - Item1: opaque__paper__unique_fire_extinguisher_a
+        Item2: acaad802-09b4-4ed9-a168-5bec4a79b2d2
+      - Item1: opaque__paper__unique_warehousetables_decal_a
+        Item2: 13fe294e-a091-47fe-ba3d-913f4be1d345
+    Nodes:
+      - sm_base_a01_mesh_00_001
+SwapWindingOrder: false

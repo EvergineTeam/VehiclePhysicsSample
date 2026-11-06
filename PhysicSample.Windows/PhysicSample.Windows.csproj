@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Evergine.DirectX12" Version="2026.11.6.1130-nightly" />
+    <PackageReference Include="Evergine.HLSLEverywhere" Version="2026.11.6.1130-nightly" />
+    <PackageReference Include="Evergine.XAudio2" Version="2026.11.6.1130-nightly" />
+    <PackageReference Include="Evergine.Forms" Version="2026.11.6.1130-nightly" />
+    <PackageReference Include="Evergine.Targets" Version="2026.11.6.1130-nightly" />
+    <PackageReference Include="Evergine.Targets.Windows" Version="2026.11.6.1130-nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhysicSample\PhysicSample.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="$(DefineConstants.Contains('EVERGINE_EDITOR'))">
+    <ProjectReference Include="..\PhysicSample.Editor\PhysicSample.Editor.csproj" />
+  </ItemGroup>
+</Project>

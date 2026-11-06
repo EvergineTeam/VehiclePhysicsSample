@@ -1,0 +1,278 @@
+!Evergine.Framework.Assets.AssetSources.Entities.PrefabModel,Evergine.Framework
+Root:
+  Name: Rack1_fixed_glb
+  Tag: null
+  IsEnabled: true
+  IsStatic: false
+  Components:
+    - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+      Id: 78ddbc8f-fe8a-470c-971a-6cf021f0e75b
+      IsEnabled: true
+      LocalOrientation:
+        W: 1.0
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      LocalPosition:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      LocalScale:
+        X: 1.0
+        Y: 1.0
+        Z: 1.0
+    - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+      Id: e23bc753-f92d-48c3-b92e-0fbba82be92a
+      AsignedTo: opaque__metal__painted_unique_rack_a
+      IsEnabled: true
+      Material: 0a19d95b-7203-48f1-9584-d0cf056c8f0e
+      UseCopy: false
+    - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
+      Id: 139caa92-71e9-402b-8acf-55e32423efe0
+      AsignedTo: opaque__metal__unique_rack_a
+      IsEnabled: true
+      Material: 0a19d95b-7203-48f1-9584-d0cf056c8f0e
+      UseCopy: false
+    - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
+      Id: fc291769-a064-417a-b704-93d9eae800fb
+      IsEnabled: true
+      Model: f16644b8-5a46-4baf-be6e-b48f228ad5e5
+      ModelMeshName: sm_rack_a01_mesh_00
+    - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
+      Id: 354d0cb3-a992-44aa-95a6-259e5dd2f552
+      DebugBoundingbox: true
+      IsCullingEnabled: true
+      IsEnabled: true
+      OrderBias: 0
+      RenderFlags: CastShadows
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: a069856a-8b92-4ff4-ab5e-ddcba0ebccd3
+      ConvexRadius: 0.00499999989
+      Density: 513.849976
+      IsEnabled: true
+      Offset:
+        X: -1.93649995
+        Y: 1.505
+        Z: -0.950999975
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 0.127000004
+        Y: 3.00999999
+        Z: 0.0839999989
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: 1ab5c8c8-8f5e-4973-ac64-90130b0cf59b
+      ConvexRadius: 0.00499999989
+      Density: 513.849976
+      IsEnabled: true
+      Offset:
+        X: -1.93649995
+        Y: 1.505
+        Z: 0.950999975
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 0.127000004
+        Y: 3.00999999
+        Z: 0.0839999989
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: ce4262f7-164d-4b57-a2b5-55c49526cd06
+      ConvexRadius: 0.00499999989
+      Density: 513.849976
+      IsEnabled: true
+      Offset:
+        X: 1.93649995
+        Y: 1.505
+        Z: -0.950999975
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 0.127000004
+        Y: 3.00999999
+        Z: 0.0839999989
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: 6a170474-41b7-44d6-a737-d8c6ab0897fa
+      ConvexRadius: 0.00499999989
+      Density: 513.849976
+      IsEnabled: true
+      Offset:
+        X: 1.93649995
+        Y: 1.505
+        Z: 0.950999975
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 0.127000004
+        Y: 3.00999999
+        Z: 0.0839999989
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: 5ef294ab-ee0d-41a0-9146-6bc4566de16c
+      ConvexRadius: 0.00499999989
+      Density: 433.799988
+      IsEnabled: true
+      Offset:
+        X: 0.0
+        Y: 0.423500001
+        Z: -0.952000022
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 3.74600005
+        Y: 0.160999998
+        Z: 0.0860000029
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: 50820a50-11a1-47b4-b09f-2760bcd4c614
+      ConvexRadius: 0.00499999989
+      Density: 433.799988
+      IsEnabled: true
+      Offset:
+        X: 0.0
+        Y: 2.30150008
+        Z: -0.952000022
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 3.74600005
+        Y: 0.160999998
+        Z: 0.0860000029
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: db986a74-dd3d-4454-a128-2cc88dc60096
+      ConvexRadius: 0.00499999989
+      Density: 433.799988
+      IsEnabled: true
+      Offset:
+        X: 0.0
+        Y: 0.423500001
+        Z: 0.952000022
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 3.74600005
+        Y: 0.160999998
+        Z: 0.0860000029
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: f51318b4-746b-4444-91f2-cfc2f261ed2f
+      ConvexRadius: 0.00499999989
+      Density: 433.799988
+      IsEnabled: true
+      Offset:
+        X: 0.0
+        Y: 2.30150008
+        Z: 0.952000022
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 3.74600005
+        Y: 0.160999998
+        Z: 0.0860000029
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: 7e214367-727d-4339-a498-1dbec4c6fbac
+      ConvexRadius: 0.00499999989
+      Density: 39.6399994
+      IsEnabled: true
+      Offset:
+        X: 0.0
+        Y: 0.444000006
+        Z: 0.0
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 3.73600006
+        Y: 0.123999998
+        Z: 1.90600002
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: 0d216e68-eb4b-4673-8b86-d5e690ac14ec
+      ConvexRadius: 0.00499999989
+      Density: 39.6399994
+      IsEnabled: true
+      Offset:
+        X: 0.0
+        Y: 2.31999993
+        Z: 0.0
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 3.73600006
+        Y: 0.123999998
+        Z: 1.90600002
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: 29e32320-3990-4d8e-9dbd-be463dfe2e35
+      ConvexRadius: 0.00499999989
+      Density: 66.2099991
+      IsEnabled: true
+      Offset:
+        X: -1.93649995
+        Y: 1.45000005
+        Z: 0.0
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 0.0399999991
+        Y: 2.70000005
+        Z: 1.81799996
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.BoxCollider,Evergine.Framework
+      Id: f903ab70-0a13-4f99-93e2-5e98c6fa36dc
+      ConvexRadius: 0.00499999989
+      Density: 66.2099991
+      IsEnabled: true
+      Offset:
+        X: 1.93649995
+        Y: 1.45000005
+        Z: 0.0
+      RotationOffset:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+      Size:
+        X: 0.0399999991
+        Y: 2.70000005
+        Z: 1.81799996
+      UseModelBounds: false
+    - !Evergine.Framework.Physics.StaticBody,Evergine.Framework
+      Id: 23371198-d277-455f-8cf9-a454d03972db
+      CollisionCategory: Cat1
+      EnhancedInternalEdgeRemoval: false
+      Friction: 0.300000012
+      IsEnabled: true
+      IsSensor: false
+      Restitution: 0.100000001
+      ShowAdvanced: false
+      SurfaceVelocity:
+        X: 0.0
+        Y: 0.0
+        Z: 0.0
+  Children: []
+  Id: d31974e8-9ae0-4639-9406-f2de99778b59

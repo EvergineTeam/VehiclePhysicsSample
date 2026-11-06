@@ -1,0 +1,53 @@
+!Evergine.Assets.Exporters.MaterialMetaFile,Evergine.Assets
+Id: 5df327a2-5a13-4ef3-a2e1-68ee7c72bdcf
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAsRaw: false
+MaterialInfo:
+  Id: f2ecece3-013d-43ad-9a05-c6ddb208f224
+  ActiveDirectives:
+    - LIT
+    - IBL
+    - DIFF
+    - NORMAL
+    - MT_RG_TEXTURED
+  AllowInstancing: false
+  EffectID: daa1f60a-82ad-40fc-8fbb-7b85caa6de0a
+  Layer: e35c59a9-26ab-4b4c-8210-4b1f21c31530
+  OrderBias: 0
+  Parameters:
+    - Name: BaseColor
+      Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
+      ValueByteArray: AACAPwAAgD8AAIA/
+    - Name: EmissiveColor
+      Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAA
+    - Name: Alpha
+      Type: System.Single
+      ValueByteArray: AACAPg==
+    - Name: Metallic
+      Type: System.Single
+      ValueByteArray: AAAAAA==
+    - Name: Roughness
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: ReferenceAlpha
+      Type: System.Single
+      ValueByteArray: AAAAAA==
+  Samplers:
+    - ID: 91eaf56a-d033-4ec4-ab2a-6be1cd374e89
+      Name: BaseColorSampler
+    - ID: 91eaf56a-d033-4ec4-ab2a-6be1cd374e89
+      Name: NormalSampler
+    - ID: 91eaf56a-d033-4ec4-ab2a-6be1cd374e89
+      Name: MetallicRoughnessSampler
+  Textures:
+    - ID: 0872635b-c157-4d68-947f-3ff994e7f9e3
+      Name: BaseColorTexture
+    - ID: 5d10cf93-d164-4712-85a2-3dfddda22b8c
+      Name: NormalTexture
+    - ID: 48a368cc-9c3b-477b-a1e8-2300de49b9f2
+      Name: MetallicRoughnessTexture
+Profiles: {}

@@ -1,0 +1,24 @@
+!Evergine.Assets.Exporters.MaterialMetaFile,Evergine.Assets
+Id: e8cfd946-38db-422f-b165-a00d875c803a
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAsRaw: false
+MaterialInfo:
+  Id: fdb5ae19-042f-4a47-af10-65883d89ce34
+  ActiveDirectives: []
+  AllowInstancing: false
+  EffectID: daa1f60a-82ad-40fc-8fbb-7b85caa6de0a
+  Layer: e35c59a9-26ab-4b4c-8210-4b1f21c31530
+  OrderBias: 0
+  Parameters:
+    - Name: BaseColor
+      Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
+      ValueByteArray: j8L1PClcDz3sUTg9
+    - Name: Alpha
+      Type: System.Single
+      ValueByteArray: 7FE4Pw==
+  Samplers: []
+  Textures: []
+Profiles: {}

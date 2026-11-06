@@ -1,0 +1,94 @@
+!Evergine.Assets.Exporters.ModelMetaFile,Evergine.Assets
+Id: 15759368-837e-4c29-bb30-c46b31fc0db8
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: debfaabd-b8a8-4f54-86d0-7e634bcfbff8
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: a77b5ec5-0bbd-45a0-9004-15fe21667da3
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: opaque__nylon__tape_a
+        Item2: 2409ff35-8f29-4e9d-8427-49bbd1ed262c
+      - Item1: opaque__cardboard__brown_a
+        Item2: 99e09814-29d6-41b6-8f4c-3baa4c2f24ba
+      - Item1: opaque__cardboard__trim_a
+        Item2: 2409ff35-8f29-4e9d-8427-49bbd1ed262c
+      - Item1: opaque__cardboard__brown_a.001
+        Item2: 99e09814-29d6-41b6-8f4c-3baa4c2f24ba
+      - Item1: opaque__nylon__tape_a.001
+        Item2: 2409ff35-8f29-4e9d-8427-49bbd1ed262c
+      - Item1: opaque__cardboard__trim_a.001
+        Item2: 2409ff35-8f29-4e9d-8427-49bbd1ed262c
+      - Item1: opaque__cardboard__trim_a.002
+        Item2: 2409ff35-8f29-4e9d-8427-49bbd1ed262c
+      - Item1: opaque__cardboard__brown_a.002
+        Item2: 99e09814-29d6-41b6-8f4c-3baa4c2f24ba
+      - Item1: opaque__nylon__tape_a.002
+        Item2: 2409ff35-8f29-4e9d-8427-49bbd1ed262c
+      - Item1: opaque__metal__aluminium_brushed_b
+        Item2: c190afa1-45ad-47eb-84d0-d05240a42a4f
+      - Item1: opaque__wood__white_tile_a
+        Item2: b3d92a0f-1b70-42be-9ced-cad26210f778
+      - Item1: opaque__wood__white_trim_a
+        Item2: 52b7613c-ec24-4c21-99c6-758a9a1bf8fd
+      - Item1: opaque__wood__new_tile_a
+        Item2: ef5904c6-a36b-4e12-a2c3-3a0c39d746fe
+      - Item1: opaque__cardboard__brown_a.003
+        Item2: 99e09814-29d6-41b6-8f4c-3baa4c2f24ba
+      - Item1: opaque__paper__decal_a
+        Item2: 2409ff35-8f29-4e9d-8427-49bbd1ed262c
+      - Item1: opaque__nylon__tape_a.003
+        Item2: 2409ff35-8f29-4e9d-8427-49bbd1ed262c
+      - Item1: opaque__cardboard__trim_a.003
+        Item2: 2409ff35-8f29-4e9d-8427-49bbd1ed262c
+      - Item1: opaque__metal__aluminium_brushed_b.001
+        Item2: c190afa1-45ad-47eb-84d0-d05240a42a4f
+      - Item1: opaque__paper__decal_black_a
+        Item2: 938050c7-e44c-49f0-92dd-f703a068d8f0
+      - Item1: opaque__metal__aluminium_brushed_b.002
+        Item2: c190afa1-45ad-47eb-84d0-d05240a42a4f
+      - Item1: opaque__wood__clean_tile_a
+        Item2: cecbd4a1-69a7-4d8e-a49b-9b72c03946fb
+      - Item1: opaque__wood__clean_trim_a
+        Item2: 4377d6f6-59da-4384-af33-ec6c103602a5
+      - Item1: opaque__metal__aluminium_brushed_b.003
+        Item2: c190afa1-45ad-47eb-84d0-d05240a42a4f
+      - Item1: opaque__wood__clean_tile_a.001
+        Item2: cecbd4a1-69a7-4d8e-a49b-9b72c03946fb
+      - Item1: opaque__wood__clean_trim_a.001
+        Item2: 4377d6f6-59da-4384-af33-ec6c103602a5
+      - Item1: opaque__metal__aluminium_brushed_b.004
+        Item2: c190afa1-45ad-47eb-84d0-d05240a42a4f
+      - Item1: opaque__wood__clean_tile_a.002
+        Item2: cecbd4a1-69a7-4d8e-a49b-9b72c03946fb
+      - Item1: opaque__wood__clean_trim_a.002
+        Item2: 4377d6f6-59da-4384-af33-ec6c103602a5
+      - Item1: opaque__wood__pressed_trim_a
+        Item2: adcb2519-0881-47c8-b22e-982b314cf5ac
+      - Item1: opaque__metal__painted_grey_rough_a
+        Item2: 47ade0d2-78e4-47da-b7f6-76a7eb2ada60
+      - Item1: opaque__wood__pressed_tile_a
+        Item2: adcb2519-0881-47c8-b22e-982b314cf5ac
+    Nodes:
+      - sm_box_cube_a06_mesh_00_001
+      - sm_box_flat1_a10_mesh_00_001
+      - sm_box_flat2_a10_mesh_00_001
+      - sm_crate_wood_heavyDuty_a02_mesh_00_001
+      - sm_pallet_block_a04_mesh_00_001
+      - sm_pallet_collar_wood_a03_mesh_00_001
+      - sm_pallet_collar_wood_a04_mesh_00_001
+      - sm_pallet_collar_wood_a09_mesh_00_001
+      - sm_rack_storage_bulk_a03_mesh_00_001
+SwapWindingOrder: false

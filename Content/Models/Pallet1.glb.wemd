@@ -1,0 +1,38 @@
+!Evergine.Assets.Exporters.ModelMetaFile,Evergine.Assets
+Id: a7dc0c55-573c-4b2d-b513-87eb72521977
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: d0bc15b8-870b-4386-b587-d5cfab7ccb00
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: 59bfacc4-b532-4e6d-8f5f-91a377928614
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: opaque__nylon__unique_pallet_f
+        Item2: daeca5ce-4ae3-4619-8536-033c4fe3d5e8
+      - Item1: opaque__cardboard__brown_f
+        Item2: c4c2894d-9867-45af-896b-c25f109884b6
+      - Item1: opaque__cardboard__unique_pallet_f
+        Item2: daeca5ce-4ae3-4619-8536-033c4fe3d5e8
+      - Item1: opaque__metal__glossy_f
+        Item2: 7b50744c-2971-4c48-8c29-fdda645c05ee
+      - Item1: opaque__paper__unique_pallet_f
+        Item2: daeca5ce-4ae3-4619-8536-033c4fe3d5e8
+      - Item1: opaque__wood__recycled_f
+        Item2: da306ed1-5a33-4413-9b23-0c3eb4ce15a2
+      - Item1: opaque__fabric__strap_f
+        Item2: a619a8aa-569f-4860-8f7d-3693b31f4a40
+    Nodes:
+      - sm_pallet_assembly_brown_f06_mesh_00_001
+SwapWindingOrder: false

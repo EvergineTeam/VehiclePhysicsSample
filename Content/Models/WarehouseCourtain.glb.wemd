@@ -1,0 +1,24 @@
+!Evergine.Assets.Exporters.ModelMetaFile,Evergine.Assets
+Id: a5c2457b-6933-4c51-aa74-d178a258818e
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: 1e4c6e4a-d63e-46fa-b3e2-eed34f087d36
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: 05da1a5e-83e3-43d5-8d87-2621c2ecdf3d
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials: []
+    Nodes:
+      - Grid
+SwapWindingOrder: false
